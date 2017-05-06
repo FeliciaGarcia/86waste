@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'home/about'
+
+  get 'home/cities'
+
+  get 'home/niehgborhoods'
+
+  get 'static_pages/neighborhoods'
+
   devise_for :users
 	get 'home' => 'static_pages#home'
 	get 'about' => 'static_pages#about'
