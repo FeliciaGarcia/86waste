@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   
 
+  devise_for :businesses
   get 'home/about'
 
   get 'home/cities'
