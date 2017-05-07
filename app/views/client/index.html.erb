@@ -1,0 +1,36 @@
+<!-- in app/views/client/index.html.erb -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>project5</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+
+  <body ng-app="project5">
+    <nav>
+      <ul>
+      <% if user_signed_in? %>
+  <li><%= link_to "Cities", cities_path %></li>
+<% else %>
+  <li><%= link_to "Sign Up", new_user_registration_path %></li>
+  <li><%= link_to "Sign In", new_user_session_path %></li>
+  <li><%= link_to 'Sign out', destroy_user_session_path, method: 'delete', target: '_self' %></li>
+<% end %>
+      <li><%= link_to "Home", home_path %></li>
+      <li><%= link_to "About", about_path %></li>
+      <li><%= link_to "Cities", cities_path %></li>
+    </ul>
+      
+    </nav>
+
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
+    <h1>This is our Front end</h1>
+
+    <ui-view></ui-view>
+  </body>
+</html>

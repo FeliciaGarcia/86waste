@@ -1,4 +1,3 @@
 class StaticPagesController < ApplicationController
-  def neighborhoods
-  end
+  before_action :authenticate_user!, only: [:cities] 
 end

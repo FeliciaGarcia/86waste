@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/neysa21/project5/issues"
   },
-  "homepage": "https://github.com/neysa21/project5#readme"
+  "homepage": "https://github.com/neysa21/project5#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "^1.0.0-rc.1"
+  }
 }
