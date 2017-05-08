@@ -3,11 +3,11 @@ Rails.application.routes.draw do
   
 
   devise_for :businesses
-  get 'home/about'
-
-  get 'home/cities'
-
-  get 'home/niehgborhoods'
+ 
+  get 'home' => 'static_pages#home'
+  get 'about' => 'static_pages#about'
+  get 'cities' => 'static_pages#cities'
+  get 'neighborhoods' => 'static_pages#neighborhoods'
 
   
 
