@@ -1,0 +1,17 @@
+{:uriI"Œfile://app/assets/javascripts/components/posts/posts.html?type=text/html&id=050c792a88933923483253ddbb6e80648a5932beab5a773fa1e9d06433085e06:ET:load_pathI"app/assets/javascripts;T:filenameI"7app/assets/javascripts/components/posts/posts.html;T:	nameI"components/posts/posts;T:logical_pathI" components/posts/posts.html;T:content_typeI"text/html;T:sourceI"´<h1>Post page</h1>
+<p>
+ <div class="posts">
+
+<p ng-repeat="post in $ctrl.posts">{{ post }}</p>
+
+<br>
+
+<a class="posts__create-btn" ui-sref="posts">Create a Post</a>
+
+</div>
+  
+</p>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Efile-digest://app/assets/javascripts/components/posts/posts.html;TTF:charsetI"
+utf-8;F:digest"%œ¥þ^×Ê,¦—ñ›e !°„¸¿S$Im'Xs²Hh§ûà:lengthi´:dependencies_digest"%jr$R»!É³­/c¿ÄÜÖ—Ê‰æ4Ô¿Í(c<:idI"E050c792a88933923483253ddbb6e80648a5932beab5a773fa1e9d06433085e06;F:
+mtimel+/ÿY

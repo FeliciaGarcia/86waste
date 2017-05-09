@@ -1,0 +1,8 @@
+{:uriI"Œfile://app/assets/javascripts/components/posts/posts.html?type=text/html&id=684da97fe79ed288579454dbb03d6471e471a21766b21a1e8751eb307cdc21be:ET:load_pathI"app/assets/javascripts;T:filenameI"7app/assets/javascripts/components/posts/posts.html;T:	nameI"components/posts/posts;T:logical_pathI" components/posts/posts.html;T:content_typeI"text/html;T:sourceI".<h1>Post page</h1>
+<p>
+  {{ 2 + 2 }}
+</p>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Efile-digest://app/assets/javascripts/components/posts/posts.html;TTF:charsetI"
+utf-8;F:digest"%ü©3‰!QZ?SşrŠæİj9Â3¬ºb@^”Ü:lengthi.:dependencies_digest"%±)ÛJNPIa¸¡Ñšî]Lîìh1¯©I'f„[Í¯:idI"E684da97fe79ed288579454dbb03d6471e471a21766b21a1e8751eb307cdc21be;F:
+mtimel+ÚY

@@ -21,6 +21,17 @@ class Api::UsersController < ApplicationController
 		end
 	end
 
+	def new
+    @user = User.new
+
+  	end
+
+  
+  	def edit
+    @user = current_user.find(params[:id])
+
+  	end
+
 	def update 
 		@user = current_user.find(params[:id])
 
@@ -43,5 +54,5 @@ class Api::UsersController < ApplicationController
 	def user_params
 		params.require(:user)
 		.permit(:email)
-		.merge(user_id: current_user.id)
+		
 end
