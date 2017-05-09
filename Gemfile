@@ -4,6 +4,7 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+gem 'angular_rails_csrf'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'cancancan', '~> 1.10'
 gem 'devise', '4.2.1'

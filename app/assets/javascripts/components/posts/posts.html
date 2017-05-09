@@ -2,11 +2,18 @@
 <p>
  <div class="posts">
 
-<p ng-repeat="post in $ctrl.posts">{{ post.title }}</p>
+
+<ul ng-repeat="post in $ctrl.posts">
+<li>{{ post.title }}</li>
+<li>{{ post.content }}</li>
+<li><img src="{{ post.photourl }}"></li>
+</ul>
+
+
 
 <br>
 
-<a class="posts__create-btn" ui-sref="posts">Create a Post</a>
+<a class="posts__create-btn" ui-sref="postsNew">Create a Post</a>
 
 </div>
   

@@ -25,13 +25,21 @@ angular
         url: '/',
         component: 'homePage'
       })
-      .state('post', {
+      .state('posts', {
         url: '/posts',
         component: 'posts'
       })
       .state('businesses', {
         url: '/businesses',
         component: 'businesses'
+      })
+       .state('postsNew', {
+        url: '/posts/new',
+        component: 'postsNew'
+      })
+       .state('postsShow', {
+        url: '/posts/:id',
+        component: 'postsShow'
       });
 
     // default fall back route

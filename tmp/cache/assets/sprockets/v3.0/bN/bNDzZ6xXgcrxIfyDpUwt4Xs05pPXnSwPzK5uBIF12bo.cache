@@ -1,0 +1,14 @@
+{:uriI"”file://app/assets/javascripts/components/postsShow/postsShow.html?type=text/html&id=74d14260673a1fb07392a18ee0d495d4c5cd5aaa90ca57662d4775dfe649726e:ET:load_pathI"app/assets/javascripts;T:filenameI"?app/assets/javascripts/components/postsShow/postsShow.html;T:	nameI"#components/postsShow/postsShow;T:logical_pathI"(components/postsShow/postsShow.html;T:content_typeI"text/html;T:sourceI"­<h1>This is your post</h1>
+
+
+<p> {{ $ctrl.post.title }}</p>
+<p> {{ $ctrl.post.content }}</p>
+<p><img src="{{ $ctrl.post.photourl }}"></p>
+<p>{{ $ctrl.post.photourl }}</p>
+
+
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Mfile-digest://app/assets/javascripts/components/postsShow/postsShow.html;TTF:charsetI"
+utf-8;F:digest"%b’÷`{BõF7Ôþ6jÅJ.ü¡íû¬.H#–žó¡–a:lengthi­:dependencies_digest"%û‘æTnïD†µ2šbQ—GÌûO’IÀ¸a/m¾:idI"E74d14260673a1fb07392a18ee0d495d4c5cd5aaa90ca57662d4775dfe649726e;F:
+mtimel+Ë>Y

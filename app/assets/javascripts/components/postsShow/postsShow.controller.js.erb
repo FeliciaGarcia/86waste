@@ -1,0 +1,15 @@
+angular
+  .module('project5')
+  .controller('PostsShowController', PostsShowController);
+
+PostsShowController.$inject = ['$stateParams', 'postsService'];
+
+function PostsShowController($stateParams, postsService) {
+  var vm = this;
+
+  vm.post = {};
+
+  postsService.getPost($stateParams.id).then(function(resp) {
+    vm.post = resp.data;
+  });
+}

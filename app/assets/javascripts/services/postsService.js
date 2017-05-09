@@ -9,11 +9,15 @@ function postsService($http) {
 
   factory.getPosts = function() {
     return $http.get('/api/posts');
-  };
+  }
 
-  // factory.getPosts = function(id) {
-  //   return $http.get('/api/posts/' + id);
-  // }
+  factory.getPost = function(id) {
+    return $http.get('/api/posts/' + id);
+  }
+
+  factory.savePost = function(newPost) {
+    return $http.post('/api/posts/', { post: newPost });
+  }
 
   return factory;
-}
+  }

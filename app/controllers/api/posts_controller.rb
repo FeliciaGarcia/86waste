@@ -13,17 +13,17 @@ class Api::PostsController < ApplicationController
 	end
 
 	def create
-		@posts = Posts.new(post_params)
+		@post = Post.new(posts_params)
 
-		if @user.save
+		if @post.save
 			render json: @post, status: :created
 		else
-			render json: @posts.errors, status: :unprocessable_entity
+			render json: @post.errors, status: :unprocessable_entity
 		end
 	end
 
 	def new
-    @posts = Posts.new
+    @posts = Post.new
 
   	end
 
@@ -54,8 +54,9 @@ class Api::PostsController < ApplicationController
 	private
 
 	def posts_params
-		params.require(:posts)
-		.permit(:title, :content)
+
+		params.require(:post)
+		.permit(:title, :content, :photourl)
 		.merge(user_id: current_user.id)
 	end
 end

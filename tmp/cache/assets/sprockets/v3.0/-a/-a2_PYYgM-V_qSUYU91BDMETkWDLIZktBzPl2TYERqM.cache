@@ -1,0 +1,10 @@
+{:uriI"”file://app/assets/javascripts/components/postsShow/postsShow.html?type=text/html&id=ffc039f9c8dbfe4d06a50fe26fff3976ccac6f960b744588d954ea3ecfab86a6:ET:load_pathI"app/assets/javascripts;T:filenameI"?app/assets/javascripts/components/postsShow/postsShow.html;T:	nameI"#components/postsShow/postsShow;T:logical_pathI"(components/postsShow/postsShow.html;T:content_typeI"text/html;T:sourceI"B<h1>This is your post</h1>
+
+
+
+<p> {{ $ctrl.newPost.id }}</p>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Mfile-digest://app/assets/javascripts/components/postsShow/postsShow.html;TTF:charsetI"
+utf-8;F:digest"%ºˆÇætÀŸ×èÁ>Éÿ=¬šÑ2°öyµ*s#:I:lengthiB:dependencies_digest"%‡ºˆ_å_H¸É‚Ç­¤ïb`ó3ø…”†u@Vı:idI"Effc039f9c8dbfe4d06a50fe26fff3976ccac6f960b744588d954ea3ecfab86a6;F:
+mtimel+¨8Y

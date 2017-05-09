@@ -1,0 +1,14 @@
+<h1>New Post</h1>
+
+<form>
+  <label>Title</label>
+  <input ng-model="$ctrl.newPost.title" />
+  <br/>
+  <label>Content</label>
+  <textarea ng-model="$ctrl.newPost.content"></textarea>
+  <br/>
+  <label>Photo</label>
+  <input ng-model="$ctrl.newPost.photourl" />
+  <br/>
+  <button ng-click="$ctrl.savePost()">Save</button>
+<form>
