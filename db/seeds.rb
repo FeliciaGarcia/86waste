@@ -10,17 +10,17 @@
     Post.create( 
     	title: 'How to make homemade tooth paste', 
     	content: 'mix baking soda, coconut oil, and sea salt', 
-    	photourl: 'http://i.imgur.com/kVbk3cd.jpg'
+    	photourl: 'http://cf.sunnywithachanceofsprinkles.com/wp-content/uploads/2015/12/homemade-toothpaste-6.png'
     	)
     Post.create( 
     	title: 'Zero waste grocery shopping', 
     	content: 'get reusable produce bags and a reusable shopping bag instead of plastic', 
-    	photourl: 'http://i.imgur.com/y4h1l5A.jpg'
+    	photourl: 'http://rbmtechblog.files.wordpress.com/2014/07/sustainable_grocery_merchandising.png'
     	)
     Post.create( 
     	title: 'Eat vegan without sacrificing the taste', 
     	content: 'my favorite meal to create is a grain bowl. It is an easy way to incorporate a lot of vegetables and get creative with your recipes', 
-    	photourl: 'http://i.imgur.com/voz8vtV.jpg'
+    	photourl: 'http://assets.bonappetit.com/photos/57bf27e94395c0582bb62f4e/master/w_680,h_454,c_limit/warm-kimchi-grain-bowl-farro-chard-fried-egg.jpg'
     	)
 
 
