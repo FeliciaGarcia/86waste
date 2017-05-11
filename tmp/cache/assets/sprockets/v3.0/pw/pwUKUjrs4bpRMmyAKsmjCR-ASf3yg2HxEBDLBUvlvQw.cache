@@ -1,0 +1,22 @@
+{:uriI"’file://app/assets/javascripts/components/homePage/homePage.html?type=text/html&id=23904ffb67004dcbda46df770e846775715434a8de51a342506f7295a0fadc01:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/homePage/homePage.html;T:	nameI"!components/homePage/homePage;T:logical_pathI"&components/homePage/homePage.html;T:content_typeI"text/html;T:sourceI"ø
+<div class="jumbotron">
+    <div class="title">86</div>
+  
+      <div class="landing">
+        <img class="logo" alt="Brand" src="http://i.imgur.com/D62Gvbc.png">
+        <br>
+        <p class="quote">â€œConsume less; share better.â€ 
+           â€• HervÃ© Kempf</p>
+           
+          
+        <!-- <div class="buttons">
+         <button class="btn btn-success btn-lg">Sign Up</button>
+         <a><button class="btn btn-success btn-lg" >Sign In</button></a>
+        </div> -->
+
+      </div>
+</div>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/homePage/homePage.html;TTF:charsetI"
+utf-8;F:digest"%•a8ÿ—6OüG¸RÁ°2‡åír×²±pÃöõÔÿ$ÛH:lengthiø:dependencies_digest"%oM%ì8ô<Í™Ö,ıFºËUÏ™Q”] C½:idI"E23904ffb67004dcbda46df770e846775715434a8de51a342506f7295a0fadc01;F:
+mtimel+ß†Y

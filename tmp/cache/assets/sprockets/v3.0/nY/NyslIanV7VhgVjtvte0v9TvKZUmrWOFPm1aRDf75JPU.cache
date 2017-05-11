@@ -1,18 +1,0 @@
-{:uriI"îfile://app/assets/javascripts/components/postsEdit/postsEdit.html?type=text/html&id=82028c3d16f308b3da2c5e0b2f4c2d8fc777684313c0c716f9d5eba6b12c140c:ET:load_pathI"app/assets/javascripts;T:filenameI"?app/assets/javascripts/components/postsEdit/postsEdit.html;T:	nameI"#components/postsEdit/postsEdit;T:logical_pathI"(components/postsEdit/postsEdit.html;T:content_typeI"text/html;T:sourceI"P<h1>Edit this post</h1>
-
-<form>
-  <label>Title</label>
-  <input ng-model="$ctrl.savePost.title" />
-  <br/>
-  <label>Content</label>
-  <textarea ng-model="$ctrl.savePost.content"></textarea>
-  <br/>
-  <label>Photo</label>
-  <input ng-model="$ctrl.savePost.photourl" />
-  <br/>
-  <button ng-click="$ctrl.savePost()">Update</button>
-<form>;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Mfile-digest://app/assets/javascripts/components/postsEdit/postsEdit.html;TTF:charsetI"
-utf-8;F:digest"%çΩH!TüßaﬂCò·~axBÖÀ\πJ<{ŸiM÷^Q(*:lengthiP:dependencies_digest"%ﬁT@?Rè◊z)6≠òR©+í,,Œ™ƒ“oó˝Á◊2’¶Ω:idI"E82028c3d16f308b3da2c5e0b2f4c2d8fc777684313c0c716f9d5eba6b12c140c;F:
-mtimel+VjY

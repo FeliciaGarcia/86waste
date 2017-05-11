@@ -1,16 +1,0 @@
-{:uriI"îfile://app/assets/javascripts/components/postsShow/postsShow.html?type=text/html&id=0048bd8dbdbd6ebfb8fd7e88ab6ed37c2f4deef55c6f0d01ab40886c66c69a02:ET:load_pathI"app/assets/javascripts;T:filenameI"?app/assets/javascripts/components/postsShow/postsShow.html;T:	nameI"#components/postsShow/postsShow;T:logical_pathI"(components/postsShow/postsShow.html;T:content_typeI"text/html;T:sourceI"·<h1>This is your post</h1>
-
-
-<p> {{ $ctrl.post.title }} </p>
-<p> {{ $ctrl.post.content }} </p>
-<p><img src="{{ $ctrl.post.photourl }}"></p>
-
-
-<a ui-sref="posts">Back to posts</a>
-<a ui-sref="postsEdit(1)">Edit this post</a>
-
-;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Mfile-digest://app/assets/javascripts/components/postsShow/postsShow.html;TTF:charsetI"
-utf-8;F:digest"%[ˇ&$º+‚àéÈº≠8ê;k'BPË»4®{Ö8~∆8…•:lengthi·:dependencies_digest"%ñX_W/£GÈhT9"¬÷ó®÷Hèw6I„øª:idI"E0048bd8dbdbd6ebfb8fd7e88ab6ed37c2f4deef55c6f0d01ab40886c66c69a02;F:
-mtimel+›ôY

@@ -1,0 +1,18 @@
+{:uriI"’file://app/assets/javascripts/components/homePage/homePage.html?type=text/html&id=db46e028008d08b85885f3806838cf7ed501380ad708e68989784c9f14143f02:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/homePage/homePage.html;T:	nameI"!components/homePage/homePage;T:logical_pathI"&components/homePage/homePage.html;T:content_typeI"text/html;T:sourceI"’
+<div class="jumbotron">
+    <div class="title">86 Waste</div>
+  
+      <div class="landing">
+        <img class="logo" alt="Brand" src="">
+        <p>â€œConsume less; share better.â€ 
+           â€• HervÃ© Kempf</p>
+        <div class="buttons">
+          <button class="btn btn-success btn-lg" ></button>
+          <button class="btn btn-success btn-lg" ></button>
+        </div>
+      </div>
+</div>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/homePage/homePage.html;TTF:charsetI"
+utf-8;F:digest"%]Î«yÍÕ‹ª?òüO„vO•Õ.R91‘|H³k$Ì„:lengthi’:dependencies_digest"%‚}ÿOvšÿÿ]#låîÕiSáZ9ƒÓÙ!§´72:idI"Edb46e028008d08b85885f3806838cf7ed501380ad708e68989784c9f14143f02;F:
+mtimel+‚sY
