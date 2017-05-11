@@ -1,0 +1,38 @@
+{:uriI"’file://app/assets/javascripts/components/postsNew/postsNew.html?type=text/html&id=268b17a22b172f1412f17fac121cfaa5a1abcdf8515275eab2e5696af026be1e:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/postsNew/postsNew.html;T:	nameI"!components/postsNew/postsNew;T:logical_pathI"&components/postsNew/postsNew.html;T:content_typeI"text/html;T:sourceI"î<h1>New Post</h1>
+
+<!-- <form>
+  <label>Title</label>
+  <input ng-model="$ctrl.newPost.title" />
+  <br/>
+  <label>Content</label>
+  <textarea ng-model="$ctrl.newPost.content"></textarea>
+  <br/>
+  <label>Photo</label>
+  <input ng-model="$ctrl.newPost.photourl" />
+  <br/>
+  <button ng-click="$ctrl.savePost()">Save</button>
+<form> -->
+<form>
+<div class="form-group has-success">
+  <label class="form-control-label" for="inputSuccess1">Input with success</label>
+  <input ng-model="$ctrl.newPost.title" /> type="text" class="form-control form-control-success" id="inputSuccess1">
+  <div class="form-control-feedback">Success! You've done it.</div>
+  <small class="form-text text-muted">Example help text that remains unchanged.</small>
+
+  <label class="form-control-label" for="inputSuccess1">Input with success</label>
+  <input ng-model="$ctrl.newPost.content"> type="text" class="form-control form-control-success" id="inputSuccess1">
+  <div class="form-control-feedback">Success! You've done it.</div>
+  <small class="form-text text-muted">Example help text that remains unchanged.</small>
+ 
+  <label class="form-control-label" for="inputSuccess1">Input with success</label>
+  <input ng-model="$ctrl.newPost.photourl" /> type="text" class="form-control form-control-success" id="inputSuccess1">
+  <div class="form-control-feedback">Success! You've done it.</div>
+  <small class="form-text text-muted">Example help text that remains unchanged.</small>
+  <button ng-click="$ctrl.savePost()">Save</button>
+</div>
+<form>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/postsNew/postsNew.html;TTF:charsetI"
+utf-8;F:digest"%ìÉ;É¿§/‡ß´Œ;¨*}n©aö™ñ®i†:’XIÓÐ:lengthiî:dependencies_digest"%Ìæ¹Îú=)ár0>jQŒÀ©Ï8l›IÑ
+ÔE&µZ:idI"E268b17a22b172f1412f17fac121cfaa5a1abcdf8515275eab2e5696af026be1e;F:
+mtimel+EÊY

@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "materialize";
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -21,11 +22,7 @@
  	font-family: 'Raleway', sans-serif;
  	text-align: center;
  }
- .logo {
- 	width: 450px;
- 	height: 400px;
-  	
-}
+
  
 .landing {
 	flex-direction: column;
@@ -45,13 +42,32 @@
 	font-family: 'Raleway', sans-serif;
 	color: #0275d8;
 }
-/*.navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	color: #00ffba;
-	font-size: 25px;
-}*/
+
 .logout, .login, .logup, .home {
 	padding: 10px;
 	font-family: 'Raleway', sans-serif;
-	color: #00ffba;
+	color: #4caf50 ;
+}
+.img-wrapped {
+  width: 450px;
+  height: 400px;
+  background-image: url(http://imgur.com/D62Gvbc);
+}
+.card-title {
+	font-family: 'Raleway', sans-serif;
+}
+.feed {
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+	padding-left: 15px;
+
+}
+.form {
+	margin-top: 20px;
+}
+.new {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-align:center;
 }

@@ -1,0 +1,47 @@
+{:uriI"”file://app/assets/javascripts/components/postsEdit/postsEdit.html?type=text/html&id=571e7366c7cbb98e958281e8e68894e9c514e6cb57b3967b217fb986d57ba86c:ET:load_pathI"app/assets/javascripts;T:filenameI"?app/assets/javascripts/components/postsEdit/postsEdit.html;T:	nameI"#components/postsEdit/postsEdit;T:logical_pathI"(components/postsEdit/postsEdit.html;T:content_typeI"text/html;T:sourceI"×<!-- <h1>Edit this post</h1>
+
+<form>
+  <label>Title</label>
+  <input ng-model="$ctrl.post.title" />
+  <br/>
+  <label>Content</label>
+  <textarea ng-model="$ctrl.post.content"></textarea>
+  <br/>
+  <label>Photo</label>
+  <input ng-model="$ctrl.post.photourl" />
+  <br/>
+  <button ng-click="$ctrl.savePost()">Update</button>
+<form> -->
+
+
+<div class="row" style="display:flex; flex-direction: column; justify-content: center; align-items: center; ">
+  <div class="card" style="width: 30rem;">
+  <div class="new">create a post</div>
+<div class="container">
+  <label>Title</label>
+  <input ng-model="$ctrl.post.title" />
+  <br/>
+  <br/>
+  <label>Content</label>
+  <textarea ng-model="$ctrl.post.content"></textarea>
+  <br/>
+  <br/>
+  <label>Photo</label>
+  <input ng-model="$ctrl.post.photourl" />
+  <br/>
+  <br/>
+  <div>
+  <button class="btn btn-default green text-white" style="margin-bottom: 10px" ng-click="$ctrl.savePost()">Save</button>
+  <a ui-sref="posts"><button class="btn btn-default blue text-white" style="margin-bottom: 10px" >Back to posts</button></a>
+  </div>
+  <button class="btn btn-default red text-white" style="margin-bottom: 10px" ng-click='$ctrl.postDelete($ctrl.post.id)'>Delete</button>
+<form>
+</div>
+</div>
+</div>
+
+  ;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Mfile-digest://app/assets/javascripts/components/postsEdit/postsEdit.html;TTF:charsetI"
+utf-8;F:digest"%pÞôžÛóezè{¬ïo˜r–ÐA6†-åVQÖž1fc:lengthi×:dependencies_digest"%4.}µçx";ZˆºÞ­ðOèÝ‚‹K¾>¢:idI"E571e7366c7cbb98e958281e8e68894e9c514e6cb57b3967b217fb986d57ba86c;F:
+mtimel+¤÷Y

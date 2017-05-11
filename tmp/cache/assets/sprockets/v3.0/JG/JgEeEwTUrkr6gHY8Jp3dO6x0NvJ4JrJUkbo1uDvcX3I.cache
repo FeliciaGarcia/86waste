@@ -1,0 +1,25 @@
+{:uriI"’file://app/assets/javascripts/components/homePage/homePage.html?type=text/html&id=22ceaf4539b40b40c2533e1d3bd23872e405a4b7a1c76d9a479478f7d34895da:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/homePage/homePage.html;T:	nameI"!components/homePage/homePage;T:logical_pathI"&components/homePage/homePage.html;T:content_typeI"text/html;T:sourceI"t
+<div class="jumbotron">
+    
+  
+      <div class="landing">
+        <img class="logo" alt="Brand" ng-src="http://imageshack.com/a/img922/9296/C5ad3F.png">
+        
+
+        <br>
+        <p class="quote">â€œConsume less; share better.â€ 
+           â€• HervÃ© Kempf</p>
+        <button class="btn btn-default orange accent-4 text-white" type="button" ui-sref="posts">go to your feed</button>
+           
+          
+        <!-- <div class="buttons">
+         <button class="btn btn-success btn-lg">Sign Up</button>
+         <a><button class="btn btn-success btn-lg" >Sign In</button></a>
+        </div> -->
+
+      </div>
+</div>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/homePage/homePage.html;TTF:charsetI"
+utf-8;F:digest"%¬ÕÍ¨5Tñëñ‘;¤·ï„Ôy-R£bCª­ıp†Oá:lengthit:dependencies_digest"%M<Ü5Gøª®#CÉ…qA(‡¢¾…QµE×ô>ûaŒÒ:idI"E22ceaf4539b40b40c2533e1d3bd23872e405a4b7a1c76d9a479478f7d34895da;F:
+mtimel+ÉãY

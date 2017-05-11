@@ -1,18 +1,30 @@
-<h1>Post page</h1>
-<p>
+<div class="feed"></div>
+
+
  <div class="posts">
+<a class="btn btn-default green text-white" style="margin-left: 550px;" ui-sref="postsNew">Create a Post</a>
+  <div ng-repeat="post in $ctrl.posts" class="row">
+   <div class="row">
+    <div class="col s12 m6 l3">
+      <div class="card" style="width: 30rem;">
+      <div style="margin: 35px;">
+         <span class="card-title blue-text text-darken-3"><strong>{{ post.title }}</strong></span>
+        <div class="card-image">
+          <img style="width:375px; height:300px;" ng-src="{{ post.photourl }}">
+        </div>
+        <div class="card-content">
+          <p>{{ post.content }}</p>
+         </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
 
 
-<ul ng-repeat="post in $ctrl.posts">
-<li>{{ post.title }}</li>
-<li>{{ post.content }}</li>
-<li><img src="{{ post.photourl }}"></li>
-</ul>
 
-<br>
-
-<a class="posts__create-btn" ui-sref="postsNew">Create a Post</a>
 
 </div>
+
   
-</p>

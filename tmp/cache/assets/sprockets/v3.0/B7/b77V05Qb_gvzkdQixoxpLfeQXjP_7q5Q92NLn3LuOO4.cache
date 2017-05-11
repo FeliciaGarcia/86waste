@@ -1,18 +1,0 @@
-{:uriI"’file://app/assets/javascripts/components/postsNew/postsNew.html?type=text/html&id=f641ab3f514880987636da07490ed80325430632d8f97c2359b09f0d9fa28d17:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/postsNew/postsNew.html;T:	nameI"!components/postsNew/postsNew;T:logical_pathI"&components/postsNew/postsNew.html;T:content_typeI"text/html;T:sourceI"E<h1>New Post</h1>
-
-<form>
-  <label>Title</label>
-  <input ng-model="$ctrl.newPost.title" />
-  <br/>
-  <label>Content</label>
-  <textarea ng-model="$ctrl.newPost.content"></textarea>
-  <br/>
-  <label>Photo</label>
-  <input ng-model="$ctrl.newPost.photourl" />
-  <br/>
-  <button ng-click="$ctrl.savePost()">Save</button>
-<form>;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/postsNew/postsNew.html;TTF:charsetI"
-utf-8;F:digest"%oüãøÈÁôjag(«.:-KÍ‘]àª2P³‡¯:lengthiE:dependencies_digest"%Êç3š¤ NŠÙ^îqE‚8»MZ­ƒr™dšÛØ°:idI"Ef641ab3f514880987636da07490ed80325430632d8f97c2359b09f0d9fa28d17;F:
-mtimel+5Y

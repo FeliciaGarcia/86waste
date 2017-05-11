@@ -10,7 +10,7 @@
     Post.create( 
     	title: 'How to make homemade tooth paste', 
     	content: 'mix baking soda, coconut oil, and sea salt', 
-    	photourl: 'http://cf.sunnywithachanceofsprinkles.com/wp-content/uploads/2015/12/homemade-toothpaste-6.png'
+    	photourl: 'http://imageshack.com/a/img922/829/Kmzeea.png'
     	)
     Post.create( 
     	title: 'Zero waste grocery shopping', 

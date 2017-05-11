@@ -1,27 +1,0 @@
-{:uriI"’file://app/assets/javascripts/components/homePage/homePage.html?type=text/html&id=eb5b3c0de82f6985157873e7de92f87c0a86d8a9b71c0ab14d819736a8b85cb5:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/homePage/homePage.html;T:	nameI"!components/homePage/homePage;T:logical_pathI"&components/homePage/homePage.html;T:content_typeI"text/html;T:sourceI"`
-<div class="jumbotron">
-    <div class="title">86 Waste</div>
-  
-      <div class="landing">
-        <img class="logo" alt="Brand" src="">
-        <p>â€œConsume less; share better.â€ 
-           â€• HervÃ© Kempf</p>
-           <li><%= link_to "Home", root_path %></li>
-        <% if user_signed_in? %>
-          <li><%= link_to 'Sign out', destroy_user_session_path, method: 'delete', target: '_self' %></li>
-        <% else %>
-          <li><%= link_to "Sign Up", new_user_registration_path, target: '_self' %></li>
-          <li><%= link_to "Sign In", new_user_session_path, target: '_self' %></li>
-        <% end %>
-          
-        <!-- <div class="buttons">
-         <button class="btn btn-success btn-lg">Sign Up</button>
-         <a><button class="btn btn-success btn-lg" >Sign In</button></a>
-        </div> -->
-        <%= yield %>
-      </div>
-</div>;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/homePage/homePage.html;TTF:charsetI"
-utf-8;F:digest"%V=çÀ¡³wƒ²À÷º 	yü»ÏÁ¾Øİ_vF=\:lengthi`:dependencies_digest"%3Tâî©Ÿrj™eíRmÌ€¦‚ÛlLr3x'(K:idI"Eeb5b3c0de82f6985157873e7de92f87c0a86d8a9b71c0ab14d819736a8b85cb5;F:
-mtimel+òwY
