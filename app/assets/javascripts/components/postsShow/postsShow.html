@@ -1,9 +1,12 @@
 <h1>This is your post</h1>
 
 
-<p> {{ $ctrl.post.title }}</p>
-<p> {{ $ctrl.post.content }}</p>
+<p> {{ $ctrl.post.title }} </p>
+<p> {{ $ctrl.post.content }} </p>
 <p><img src="{{ $ctrl.post.photourl }}"></p>
 
 
+<a ui-sref="posts">Back to posts</a>
+<a ui-sref="postsEdit({id: $ctrl.post.id})">Edit this post</a>
+<button ng-click='$ctrl.postDelete($ctrl.post.id)'>Delete this post</button>
 

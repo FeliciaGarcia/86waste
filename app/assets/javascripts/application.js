@@ -37,6 +37,10 @@ angular
         url: '/posts/new',
         component: 'postsNew'
       })
+       .state('postsEdit', {
+        url: '/posts/:id/edit',
+        component: 'postsEdit'
+      })
        .state('postsShow', {
         url: '/posts/:id',
         component: 'postsShow'

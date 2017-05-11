@@ -14,10 +14,17 @@ function postsService($http) {
   factory.getPost = function(id) {
     return $http.get('/api/posts/' + id);
   }
-
   factory.savePost = function(newPost) {
     return $http.post('/api/posts/', { post: newPost });
   }
-
+  factory.updatePost = function (updatePost) {
+        return $http.patch('/api/posts/' + updatePost.id, { post: updatePost});
+  }
+  factory.loadCurrentPost = function(id) {
+        return $http.get('/api/posts/edit/' + id);
+  }
+  factory.destroyPost = function (id) {
+        return $http.delete('/api/posts/' + id);
+  }
   return factory;
   }

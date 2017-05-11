@@ -1,16 +1,0 @@
-{:uriI"”file://app/assets/javascripts/components/postsShow/postsShow.html?type=text/html&id=1fe658f817c5a29f3179549e6599282d02da6b7880dcb08dba933552dae80103:ET:load_pathI"app/assets/javascripts;T:filenameI"?app/assets/javascripts/components/postsShow/postsShow.html;T:	nameI"#components/postsShow/postsShow;T:logical_pathI"(components/postsShow/postsShow.html;T:content_typeI"text/html;T:sourceI"Ì<h1>This is your post</h1>
-
-
-<p> 2 {{ $ctrl.post.title }}</p>
-<!-- <ul ng-="post in $ctrl.posts">
-<li>{{ post.title }}</li>
-<li>{{ post.content }}</li>
-<li><img src="{{ post.photourl }}"></li>
-</ul> -->
-
-;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Mfile-digest://app/assets/javascripts/components/postsShow/postsShow.html;TTF:charsetI"
-utf-8;F:digest"%7DF–B…Ú«dÿ—›ïx¥o³úCª)vâJ=¦òë:lengthiÌ:dependencies_digest"%,EµƒË="ô…Â/ä××áá'­£–ªW£
-}v<r&dÝ:idI"E1fe658f817c5a29f3179549e6599282d02da6b7880dcb08dba933552dae80103;F:
-mtimel+W=Y

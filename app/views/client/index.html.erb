@@ -7,10 +7,11 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
 
   <body ng-app="project5">
-    <nav>
+    <nav class="light-green lighten-4">
       <ul>
         <li><%= link_to "Home", root_path %></li>
         <% if user_signed_in? %>
@@ -23,11 +24,25 @@
       </ul>
       
     </nav>
+    <div class="jumbotron">
+    <div class="title">86 Waste</div>
+  
+      <div class="landing">
+        <img class="logo" alt="Brand" src="">
+        <p>“Consume less; share better.” 
+           ― Hervé Kempf</p>
+        <div class="buttons">
+          <div class="su"><button class="btn btn-success btn-lg" ><%= link_to "Sign Up", new_user_registration_path, target: '_self' %></button></div>
+          <div class="si"><button class="btn btn-success btn-lg" ><%= link_to "Sign In", new_user_session_path, target: '_self' %></button></div>
+        </div>
+      </div>
+  
+</div>
 
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
-    <h1>This is our Front end</h1>
+    
 
     <ui-view></ui-view>
   </body>

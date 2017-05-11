@@ -1,5 +1,4 @@
 @import "bootstrap";
-
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -16,3 +15,28 @@
  *= require_self
  *= require_tree ../javascripts/components/
  */
+
+ .title {
+ 	font-size: 50px;
+ 	font-family: 'Raleway', sans-serif;
+ 	text-align: center;
+ }
+ .logo {
+ 	width: 400px;
+ 	height: 400px;
+  	
+}
+ 
+.landing {
+	flex-direction: column;
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+.buttons {
+	flex-direction:row;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+
+}

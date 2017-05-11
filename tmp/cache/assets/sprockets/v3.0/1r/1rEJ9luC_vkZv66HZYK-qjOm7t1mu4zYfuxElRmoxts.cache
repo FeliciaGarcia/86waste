@@ -1,11 +1,0 @@
-{:uriI"’file://app/assets/javascripts/components/homePage/homePage.html?type=text/html&id=20591c9555b48e3089d877bacaaa6b81cf2597ec56ac657d43d8430efe2bb7c2:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/homePage/homePage.html;T:	nameI"!components/homePage/homePage;T:logical_pathI"&components/homePage/homePage.html;T:content_typeI"text/html;T:sourceI"8<h1>Home Page</h1>
-<p>
-  {{ $ctrl.message }}
-</p>
-
-;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/homePage/homePage.html;TTF:charsetI"
-utf-8;F:digest"%ÁD¢‚oi0C:)§Ü>ê]Üï]D
-ª5_'ÅòM‹Î,:lengthi8:dependencies_digest"%yi9‡æB ·fðè'/MV“™GwÅãÙAµ¿Ð:idI"E20591c9555b48e3089d877bacaaa6b81cf2597ec56ac657d43d8430efe2bb7c2;F:
-mtimel+NæY

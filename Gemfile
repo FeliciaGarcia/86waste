@@ -4,8 +4,8 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'angular_rails_csrf'
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'cancancan', '~> 1.10'
 gem 'devise', '4.2.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -40,6 +40,7 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'pry'
 end
 
 group :development do

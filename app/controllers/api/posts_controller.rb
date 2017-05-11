@@ -41,6 +41,7 @@ class Api::PostsController < ApplicationController
 		else
 			render json: @posts.errors, status: :unprocessable_entity
 		end
+		
 	end
 
 	def destroy 
@@ -56,7 +57,7 @@ class Api::PostsController < ApplicationController
 	def posts_params
 
 		params.require(:post)
-		.permit(:title, :content, :photourl)
+		.permit(:title, :content, :photourl, :id, :created_at, :updated_at, :user_id)
 		.merge(user_id: current_user.id)
 	end
 end

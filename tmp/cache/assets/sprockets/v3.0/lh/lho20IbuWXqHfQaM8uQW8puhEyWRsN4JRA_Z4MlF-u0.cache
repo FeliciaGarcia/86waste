@@ -1,0 +1,19 @@
+{:uriI"”file://app/assets/javascripts/components/postsShow/postsShow.html?type=text/html&id=864d0e9013f96b2fad5103265a3dcc7817b23ee2229fa825be7fd4421ab0a31b:ET:load_pathI"app/assets/javascripts;T:filenameI"?app/assets/javascripts/components/postsShow/postsShow.html;T:	nameI"#components/postsShow/postsShow;T:logical_pathI"(components/postsShow/postsShow.html;T:content_typeI"text/html;T:sourceI"<h1>This is your post</h1>
+
+
+<p> {{ $ctrl.post.title }}</p>
+<p> {{ $ctrl.post.content }}</p>
+<p><img src="{{ $ctrl.post.photourl }}"></p>
+
+
+<a ui-sref="posts">Back to posts</a>
+<a ui-sref="postsEdit({ id:$ctrl.post.id })">Edit this post</a>
+<form ng-submit="$ctrl.postDelete({ id:$ctrl.post.id })">
+  <button type="submit" class="btn btn-danger"><i class="glyphicon glyphicon-remove">delete</i></button>
+</form>
+
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Mfile-digest://app/assets/javascripts/components/postsShow/postsShow.html;TTF:charsetI"
+utf-8;F:digest"%‚×ëRés>öRíƒRş5ˆú”z€J,…raz4š4:lengthi:dependencies_digest"%°Ö 4"ÁëU@…‰ãe#WvpšéÁÂ‡^zdØÉKH:idI"E864d0e9013f96b2fad5103265a3dcc7817b23ee2229fa825be7fd4421ab0a31b;F:
+mtimel+•Y
