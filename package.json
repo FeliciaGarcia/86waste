@@ -22,6 +22,6 @@
   "homepage": "https://github.com/neysa21/project5#readme",
     "dependencies": {
     "@uirouter/angularjs": "latest",
-    "@uirouter/visualizer": "latest",
+    "@uirouter/visualizer": "latest"
   }
 }
