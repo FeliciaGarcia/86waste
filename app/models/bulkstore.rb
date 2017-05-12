@@ -1,0 +1,2 @@
+class Bulkstore < ApplicationRecord
+end
