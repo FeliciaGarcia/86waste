@@ -1,0 +1,76 @@
+@import "bootstrap";
+@import "materialize";
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require_tree ../javascripts/components/
+ */
+
+ .title {
+ 	font-size: 90px;
+ 	font-family: 'Raleway', sans-serif;
+ 	text-align: center;
+ }
+
+ 
+.landing {
+	flex-direction: column;
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+.buttons {
+	flex-direction:row;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+
+}
+.quote {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: #0275d8;
+}
+
+.logout, .login, .logup, .home {
+	padding: 10px;
+	font-family: 'Raleway', sans-serif;
+	color: #4caf50 ;
+}
+.img-wrapped {
+  width: 450px;
+  height: 400px;
+  background-image: url(http://imgur.com/D62Gvbc);
+}
+.card-title {
+	font-family: 'Raleway', sans-serif;
+}
+.feed {
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+	padding-left: 15px;
+
+}
+.form {
+	margin-top: 20px;
+}
+.new {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+.search {
+	margin-top: 10px;
+}

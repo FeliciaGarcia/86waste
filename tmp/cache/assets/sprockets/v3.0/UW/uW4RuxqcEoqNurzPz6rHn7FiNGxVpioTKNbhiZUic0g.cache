@@ -1,0 +1,25 @@
+{:uriI"’file://app/assets/javascripts/components/postsNew/postsNew.html?type=text/html&id=7c62fab3db982a5b5dc193149e763ec1d1a9bb16f894d07ff0fcaef3079bb125:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/postsNew/postsNew.html;T:	nameI"!components/postsNew/postsNew;T:logical_pathI"&components/postsNew/postsNew.html;T:content_typeI"text/html;T:sourceI"<h1>New Post</h1>
+<div class="row" style="display:flex; flex-direction: column; justify-content: center; align-items: center; ">
+  <div class="card" style="width: 30rem;">
+<div class="container">
+<form>
+  <label>Title</label>
+  <input ng-model="$ctrl.newPost.title" />
+  <br/>
+  <label>Content</label>
+  <textarea ng-model="$ctrl.newPost.content"></textarea>
+  <br/>
+  <label>Photo</label>
+  <input ng-model="$ctrl.newPost.photourl" />
+  <br/>
+  <button ng-click="$ctrl.savePost()">Save</button>
+<form>
+</div>
+</div>
+</div>
+
+  ;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/postsNew/postsNew.html;TTF:charsetI"
+utf-8;F:digest"%¥6A£StL`e3“ñÛ¦žðQºaI>ÇL&ø™8Íå:lengthi:dependencies_digest"%}eì†¥0>F"*ð8TÎ3ï?8©¤§I:Utùõø:idI"E7c62fab3db982a5b5dc193149e763ec1d1a9bb16f894d07ff0fcaef3079bb125;F:
+mtimel+>ÒY

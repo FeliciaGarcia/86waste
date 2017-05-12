@@ -1,0 +1,60 @@
+{:uriI"’file://app/assets/javascripts/components/postsNew/postsNew.html?type=text/html&id=575eec10b2d79b73d2a274ac6c391b528066ed20574271cba4173c17b7179358:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/postsNew/postsNew.html;T:	nameI"!components/postsNew/postsNew;T:logical_pathI"&components/postsNew/postsNew.html;T:content_typeI"text/html;T:sourceI"ë<h1>New Post</h1>
+
+<form>
+  <label>Title</label>
+  <input ng-model="$ctrl.newPost.title" />
+  <br/>
+  <label>Content</label>
+  <textarea ng-model="$ctrl.newPost.content"></textarea>
+  <br/>
+  <label>Photo</label>
+  <input ng-model="$ctrl.newPost.photourl" />
+  <br/>
+  <button ng-click="$ctrl.savePost()">Save</button>
+<form>
+
+  <div class="card">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+          <label for="disabled">Disabled</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          This is an inline input field:
+          <div class="input-field inline">
+            <input id="email" type="email" class="validate">
+            <label for="email" data-error="wrong" data-success="right">Email</label>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/postsNew/postsNew.html;TTF:charsetI"
+utf-8;F:digest"%§Ád]:PÉÔ´D&pÅúˆŽ`<a‘ýc/ç	q/õ:lengthië:dependencies_digest"%ù›ÔŸ4‚†%¦`Ì,Ã­4z€9ÞáÖ0]=Šaqen:idI"E575eec10b2d79b73d2a274ac6c391b528066ed20574271cba4173c17b7179358;F:
+mtimel+—ËY

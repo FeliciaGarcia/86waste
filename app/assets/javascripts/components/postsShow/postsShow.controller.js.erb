@@ -1,0 +1,25 @@
+angular
+  .module('project5')
+  .controller('PostsShowController', PostsShowController);
+
+PostsShowController.$inject = ['$stateParams', 'postsService', '$state'];
+
+function PostsShowController($stateParams, postsService) {
+  var vm = this;
+
+  vm.post = {};
+  vm.postDelete = postDelete;
+
+  postsService.getPost($stateParams.id).then(function(resp) {
+    vm.post = resp.data;
+  });
+
+  function postDelete(id) {
+    console.log("what's going on" + id);
+        postsService
+            .destroyPost(id)
+            .then(function(resp) {
+                $state.go('posts')
+            });
+      }
+}
