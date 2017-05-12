@@ -1,16 +1,13 @@
 Rails.application.routes.draw do
 
-  devise_for :users
-
-  namespace :api do
-  	# resources :users
-    resources :posts
-  end
-
-  root to: 'client#index'
-  get '*path', to: 'client#index'
-
-  get 'auth/:provider/callback', to: "sessions#create"
-
-  delete 'sign_out', to: "sessions#destroy", as: 'sign_out'
+  	  devise_for :users
+   			# controllers: {omniauth_callbacks: "omniauth_callbacks"}
+   	  root to: 'client#index'
+   	 
+	  namespace :api do
+	  resources :posts
+	  
+	end
+	get '*path' => 'client#index'
+	# get '/auth/:provider/callback' => 'sessions#create'
 end

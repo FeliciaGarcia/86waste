@@ -1,0 +1,36 @@
+{:uriI"’file://app/assets/javascripts/components/homePage/homePage.html?type=text/html&id=b967c3df8f5d0c48271a7b8bd048c70f1eee549d7d1d5602c4a1fa98770a4f9a:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/homePage/homePage.html;T:	nameI"!components/homePage/homePage;T:logical_pathI"&components/homePage/homePage.html;T:content_typeI"text/html;T:sourceI"_
+<div class="jumbotron">
+    
+  
+      <div class="landing">
+        <img class="logo" alt="Brand" ng-src="http://imageshack.com/a/img922/9296/C5ad3F.png">
+        
+
+        <br>
+        <p class="quote">â€œConsume less; share better.â€ 
+           â€• HervÃ© Kempf</p>
+         
+        <!-- <button class="btn btn-default orange accent-4 text-white" type="button" ui-sref="posts">go to your feed</button> -->
+          
+          
+        <!-- <div class="buttons">
+         <button class="btn btn-success btn-lg">Sign Up</button>
+         <a><button class="btn btn-success btn-lg" >Sign In</button></a>
+        </div> -->
+
+      </div>
+</div>
+ <!--  <ul class="nav nav-pills right"> 
+        <li><%= link_to "Home", root_path %></li> 
+        <% if user_signed_in? %>
+          <li><%= link_to 'Sign out', destroy_user_session_path, method: 'delete', target: '_self' %></li>   
+        <% else %>
+          <li><%= link_to "Sign Up", new_user_registration_path, target: '_self' %></li> 
+          <li><%= link_to "Sign In", new_user_session_path, target: '_self' %></li>
+        <% end %>
+          
+      </ul> -->;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/homePage/homePage.html;TTF:charsetI"
+utf-8;F:digest"%ş„5§æ=0Eµû%r×ÚŞYŠ[m-”=´çœ#‚£Ú½:lengthi_:dependencies_digest"%ßÚ†ûÙbÀÁÕ á”Ï"¸”ï)Š*©ˆH„àQ”Z¶!Y:idI"Eb967c3df8f5d0c48271a7b8bd048c70f1eee549d7d1d5602c4a1fa98770a4f9a;F:
+mtimel+ÕàY

@@ -35,23 +35,14 @@
   <% else %>
   <li class="logup" role="presentation"><%= link_to "Sign Up", new_user_registration_path, target: '_self' %></li>
   <li class="login" role="presentation"><%= link_to "Sign In", new_user_session_path, target: '_self' %></li>
+  
   <% end %>
-  <% if current_user %> 
-    <li>Signed in as: <%= current_user %> </li> 
-    <li class="logout"><%= link_to 'Sign out', destroy_user_session_path, method: 'delete', target: '_self' %></li>
-   <% else %> 
-    <li><%= link_to "auth/facebook" do %><%= image_tag('facebook.png', width:40, height:40, class: 'img-circle') %></li>
-   <% end %>
-   <% end %>
+  <% if user_signed_in? %>
+  <li><button class="btn btn-default orange accent-4 text-white center" type="button" ui-sref="posts">go to your feed</button></li>
+<% end %>
 </ul>
-  
 
-
-  
-  
-    
-  
-
+     
 
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
