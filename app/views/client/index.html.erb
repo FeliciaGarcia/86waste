@@ -8,7 +8,8 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  </head>
+   <!--  <link rel="canonical" href="/web/tweet-button">
+  </head> -->
 
   <body ng-app="project5">
 
@@ -27,17 +28,26 @@
  
       
    
-<ul class="nav nav-tabs" style="font-family: 'Raleway', sans-serif; font-size: 20px;">
+<ul class="nav nav-tabs right" style="font-family: 'Raleway', sans-serif; padding:5px; font-size: 15px;">
+  <% if user_signed_in? %>
   <li class="home" role="presentation"><%= link_to "Home", root_path %></li>
   <li class="logout"><%= link_to 'Sign out', destroy_user_session_path, method: 'delete', target: '_self' %></li>
+  <% else %>
   <li class="logup" role="presentation"><%= link_to "Sign Up", new_user_registration_path, target: '_self' %></li>
   <li class="login" role="presentation"><%= link_to "Sign In", new_user_session_path, target: '_self' %></li>
-  
+  <% end %>
+  <% if current_user %> 
+    <li>Signed in as: <%= current_user %> </li> 
+    <li class="logout"><%= link_to 'Sign out', destroy_user_session_path, method: 'delete', target: '_self' %></li>
+   <% else %> 
+    <li><%= link_to "auth/facebook" do %><%= image_tag('facebook.png', width:40, height:40, class: 'img-circle') %></li>
+   <% end %>
+   <% end %>
 </ul>
   
-  
 
- 
+
+  
   
     
   
@@ -49,5 +59,6 @@
     
 
     <ui-view></ui-view>
+   
   </body>
 </html>

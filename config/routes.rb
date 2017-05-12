@@ -9,4 +9,8 @@ Rails.application.routes.draw do
 
   root to: 'client#index'
   get '*path', to: 'client#index'
+
+  get 'auth/:provider/callback', to: "sessions#create"
+
+  delete 'sign_out', to: "sessions#destroy", as: 'sign_out'
 end

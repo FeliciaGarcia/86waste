@@ -1,4 +1,5 @@
 class HomeController < ApplicationController:
+	before_action :set_auth
   def about
   end
 
@@ -6,5 +7,12 @@ class HomeController < ApplicationController:
   end
 
   def niehgborhoods
+  end
+
+  private
+
+  def set_auth
+  	@auth = session[:omniauth] if session[:omniauth]
+  	
   end
 end
