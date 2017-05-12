@@ -20,8 +20,8 @@
     "url": "https://github.com/neysa21/project5/issues"
   },
   "homepage": "https://github.com/neysa21/project5#readme",
-  "dependencies": {
-    "angular": "^1.6.4",
-    "angular-ui-router": "^1.0.0-rc.1"
+    "dependencies": {
+    "@uirouter/angularjs": "latest",
+    "@uirouter/visualizer": "latest",
   }
 }
