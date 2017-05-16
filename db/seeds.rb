@@ -25,9 +25,9 @@
 
 Bulkstores.destroy_all
 Bulkstores.create(
-    name:'Sevenanda'
-    description:'a local health foods store in little five points'
-    photourl:'https://pbs.twimg.com/profile_images/522796061195128834/TgHKdobF.jpeg'
-    website:''
+    name:'Sevenanda',
+    description:'a local health foods store in little five points',
+    photourl:'https://pbs.twimg.com/profile_images/522796061195128834/TgHKdobF.jpeg',
+    website:'http://www.sevananda.coop/'
     )
     
