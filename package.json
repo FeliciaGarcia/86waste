@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,9 @@
     "url": "https://github.com/neysa21/project5/issues"
   },
   "homepage": "https://github.com/neysa21/project5#readme",
-    "dependencies": {
+  "dependencies": {
     "@uirouter/angularjs": "latest",
     "@uirouter/visualizer": "latest"
-  }
+  },
+  "devDependencies": {}
 }
