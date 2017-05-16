@@ -12,7 +12,7 @@ gem 'cancancan', '~> 1.10'
 gem 'devise', '4.2.1'
 gem 'omniauth-twitter'
 
-
+ruby '2.3.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
 # Use postgresql as the database for Active Record
