@@ -39,6 +39,7 @@ class Api::UsersController < ApplicationController
 			render json: @user, status: :ok
 		else
 			render json: @user.erros, status: :unprocessable_entity
+		end
 	end
 
 	def destroy 
@@ -54,5 +55,5 @@ class Api::UsersController < ApplicationController
 	def user_params
 		params.require(:user)
 		.permit(:email)
-		
+	end
 end
