@@ -23,5 +23,11 @@
     	photourl: 'http://assets.bonappetit.com/photos/57bf27e94395c0582bb62f4e/master/w_680,h_454,c_limit/warm-kimchi-grain-bowl-farro-chard-fried-egg.jpg'
     	)
 
-
+Bulkstores.destroy_all
+Bulkstores.create(
+    name:'Sevenanda'
+    description:'a local health foods store in little five points'
+    photourl:'https://pbs.twimg.com/profile_images/522796061195128834/TgHKdobF.jpeg'
+    website:''
+    )
     
