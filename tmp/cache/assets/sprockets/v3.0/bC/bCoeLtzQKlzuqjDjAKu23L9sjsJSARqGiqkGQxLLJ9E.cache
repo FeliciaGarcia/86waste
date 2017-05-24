@@ -1,28 +1,0 @@
-{:uriI"–file://app/assets/javascripts/components/businesses/businesses.html?type=text/html&id=aa312adb268bab8985cbef6dd28c646f1181585110508dae5413264b38e1bfa7:ET:load_pathI"app/assets/javascripts;T:filenameI"Aapp/assets/javascripts/components/businesses/businesses.html;T:	nameI"%components/businesses/businesses;T:logical_pathI"*components/businesses/businesses.html;T:content_typeI"text/html;T:sourceI"<h1>Business Page</h1>
-<p>
-  {{ $ctrl.message }}
-<div ng-repeat="post in $ctrl.business" class="row">
-   		<div class="row">
-    		<div class="col s12 m6 l3">
-      			<div class="card" style="width: 30rem;">
-      				<div style="margin: 35px;">
-
-         				<span class="card-title blue-text text-darken-3"><strong>{{ business.name }}</strong></span>
-       					<div class="card-image">
-         					<img style="width:375px; height:300px;" ng-src="{{ business.photourl }}">
-        				</div>
-        				<div class="card-content">
-         		 			<p>{{ business.description }}</p>
-          		 			<p>{{ business.website }}</p>
-          		 			<p>{{ business.address }}</p>
-         				</div>
-         			</div>
-       			</div>
-      		</div>
-      	</div>
-</div>
-</p>;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Ofile-digest://app/assets/javascripts/components/businesses/businesses.html;TTF:charsetI"
-utf-8;F:digest"%ÏÛïõ]¥–‡,°D•õ“[¹ÜÕçJÎ÷É~úØ:lengthi:dependencies_digest"%«.O? èÒÓ…©,NÈ¶¦?—û+J2T¯_sE`QyÍm:idI"Eaa312adb268bab8985cbef6dd28c646f1181585110508dae5413264b38e1bfa7;F:
-mtimel+‚®$Y

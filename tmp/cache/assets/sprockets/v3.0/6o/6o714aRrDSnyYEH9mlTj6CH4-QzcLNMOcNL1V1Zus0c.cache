@@ -1,61 +1,0 @@
-{:uriI"–file://app/assets/javascripts/components/businesses/businesses.html?type=text/html&id=f9a34fec93795b941b90567383827f2ab79be423bd65fffccef4c80a20b1538d:ET:load_pathI"app/assets/javascripts;T:filenameI"Aapp/assets/javascripts/components/businesses/businesses.html;T:	nameI"%components/businesses/businesses;T:logical_pathI"*components/businesses/businesses.html;T:content_typeI"text/html;T:sourceI"G
-<div class="bulkstores"></div>
-</p>
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">A whole foods store in little five points</p>
-      <a href="http://www.sevananda.coop/">Find out more</a>
-      <p>467 Moreland Ave NE, Atlanta, GA 30307</p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Ofile-digest://app/assets/javascripts/components/businesses/businesses.html;TTF:charsetI"
-utf-8;F:digest"%xÀÌŒŸË½àÏq%ïID;àİªÑZÖ+èğ‘:lengthiG
-:dependencies_digest"%V~”ÎAK¶[×6”3øEê¤/ışÑğtèN˜lİË:idI"Ef9a34fec93795b941b90567383827f2ab79be423bd65fffccef4c80a20b1538d;F:
-mtimel+Ôç$Y

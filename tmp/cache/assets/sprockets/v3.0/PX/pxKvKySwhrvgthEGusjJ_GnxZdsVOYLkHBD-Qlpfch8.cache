@@ -1,0 +1,70 @@
+{:uriI"ñfile://app/assets/javascripts/components/businesses/businesses.html?type=text/html&id=5fd261645e8e70e406c0febaacd6c27ccd8b6078682d91db303433577e154fb2:ET:load_pathI"app/assets/javascripts;T:filenameI"Aapp/assets/javascripts/components/businesses/businesses.html;T:	nameI"%components/businesses/businesses;T:logical_pathI"*components/businesses/businesses.html;T:content_typeI"text/html;T:sourceI"c
+
+<div class="bulkstores">Bulk stores in your area</div>
+</p>
+<div class="card-deck">
+  <div class="card">
+  
+   <a class="name" href="http://www.sevananda.coop/">Sevananda</a>
+    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
+    <div class="card-block">
+
+      <p class="card-text">A whole foods store in little five points</p>
+      <p>467 Moreland Ave NE, Atlanta, GA 30307</p>
+    </div>
+  </div>
+  <div class="card">
+      <a class="name" href="http://www.wholefoodsmarket.com/">Whole Foods</a>
+    <img class="card-img-top" style="max-width: 24em; max-length: 25em; margin: 1.5em;" ng-src="http://www.mytotalretail.com/wp-content/uploads/sites/14/2015/06/whole-foods11.jpg" alt="Card image cap">
+    <div class="card-block">
+
+      <p class="card-text">whole foods has a great bulk section and organic options</p>
+      <p>650 Ponce De Leon Ave NE, Atlanta, GA 30308</p>
+    </div>
+  </div>
+  <div class="card">
+     <a class="name" href="http://www.sevananda.coop/">Sevananda</a>
+    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
+    <div class="card-block">
+
+      <p class="card-text">A whole foods store in little five points</p>
+      <p>467 Moreland Ave NE, Atlanta, GA 30307</p>
+    </div>
+  </div>
+</div>
+<div class="card-deck">
+  <div class="card">
+     <a class="name" href="http://www.sevananda.coop/">Sevananda</a>
+    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
+    <div class="card-block">
+
+      <p class="card-text">A whole foods store in little five points</p>
+      <p>467 Moreland Ave NE, Atlanta, GA 30307</p>
+    </div>
+   
+  </div>
+  <div class="card">
+     <a class="name" href="http://www.sevananda.coop/">Sevananda</a>
+    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
+    <div class="card-block">
+
+      <p class="card-text">A whole foods store in little five points</p>
+      <p>467 Moreland Ave NE, Atlanta, GA 30307</p>
+    </div>
+  </div>
+  <div class="card">
+     <a class="name" href="http://www.sevananda.coop/">Sevananda</a>
+    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
+    <div class="card-block">
+
+      <p class="card-text">A whole foods store in little five points</p>
+      <p>467 Moreland Ave NE, Atlanta, GA 30307</p>
+    </div>
+  </div>
+</div>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Ofile-digest://app/assets/javascripts/components/businesses/businesses.html;TTF:charsetI"
+utf-8;F:digest"%zî,aMO€;P-‡˙ŒB$"Â+;Pœq†≈ö¿˘:lengthic
+:dependencies_digest"%çyní¬âÓY ä#Ë€éÌG˚øT¢4¢¢t—GØ:idI"E5fd261645e8e70e406c0febaacd6c27ccd8b6078682d91db303433577e154fb2;F:
+mtimel+&%Y

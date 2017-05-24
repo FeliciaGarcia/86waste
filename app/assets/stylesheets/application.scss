@@ -43,11 +43,12 @@
 	color: #0275d8;
 }
 
-.logout, .login, .logup, .home {
+.logout, .login, .logup, .home, li {
 	padding: 10px;
 	font-family: 'Raleway', sans-serif;
-	color: #4caf50 ;
+	color: #0275d8;
 }
+
 .img-wrapped {
   width: 450px;
   height: 400px;
@@ -79,8 +80,26 @@
 }
 .bulkstores {
 	font-size: 2em;
+	color: #0275d8;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 1px;
+	margin-left: 1em;
+
 }
-.card-title {
-	font-size: .1em;
+.name {
+	font-size: 1.5em;
+	text-align: center;
+	margin: .5em;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 1px;
+	color: #0275d8;
+}
+#card-hover:hover {
+background-color: #a5d6a7;
+}
+
+.goToFeed:hover, .goToBulk:hover {
+	color: #81c784 ;
+
 }
 
