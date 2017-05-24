@@ -1,47 +1,0 @@
-{:uriI"Œfile://app/assets/javascripts/components/posts/posts.html?type=text/html&id=cb9b9a6dd066c0243ea55f5b6bd8f6189511505fed0946177f497ab6dbb4f742:ET:load_pathI"app/assets/javascripts;T:filenameI"7app/assets/javascripts/components/posts/posts.html;T:	nameI"components/posts/posts;T:logical_pathI" components/posts/posts.html;T:content_typeI"text/html;T:sourceI"i<div class="feed"></div>
-
-
-
- <div class="posts">
-
-<div class="create">
-<a class="btn btn-default green text-white" style="margin-left: 550px;" ui-sref="postsNew">Create a Post</a>
-</div>
-<div class="search center">
-    <input type="text inputsm" class="glyphicon glyphicon-search" aria-hidden="true" ng-model="searchBox" id="inputsm" placeholder="Search">
-</div>
-  <div ng-repeat="post in $ctrl.posts | filter:searchBox" class="row">
-   <div class="row">
-    <div class="col s12 m6 l3">
-      <div class="card" style="width: 30rem;">
-      <div style="margin: 35px;">
-
-         <span class="card-title blue-text text-darken-3"><strong>{{ post.title }}</strong></span>
-        <div class="card-image">
-          <img style="width:375px; height:300px;" ng-src="{{ post.photourl }}">
-        </div>
-        <div class="card-content">
-          <p>{{ post.content }}</p>
-         </div>
-         <a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet?text=check%20out%20my%20post%20on%20eighty%20six%20waste"
-  data-size="large">
-Tweet</a>
-       </div>
-      </div>
-      </div>
-    </div>
-
-  </div>
-
-
-
-</div>
-
-  
-;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Efile-digest://app/assets/javascripts/components/posts/posts.html;TTF:charsetI"
-utf-8;F:digest"%“˜„Ÿ9¬- Ãüê<dÛ!õªW¡¿ë
-Iò¨Ý:lengthii:dependencies_digest"%à")S¯Cš¼ÄŸ¬gÎ#8ÇÝ¿Ž²ÔrcÜQLp9Ò:idI"Ecb9b9a6dd066c0243ea55f5b6bd8f6189511505fed0946177f497ab6dbb4f742;F:
-mtimel+2Y

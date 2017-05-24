@@ -1,0 +1,27 @@
+
+<div class="row" style="display:flex; flex-direction: column; justify-content: center; align-items: center; ">
+  <div class="card" style="width: 30rem;">
+  <div class="new">create a business</div>
+<div class="container">
+  <label>Name</label>
+  <input ng-model="$ctrl.newBusiness.name" />
+  <br/>
+  <br/>
+  <label>Description</label>
+  <textarea ng-model="$ctrl.newBusiness.description"></textarea>
+  <br/>
+  <br/>
+  <label>Photo</label>
+  <input ng-model="$ctrl.newBusiness.photourl" />
+  <br/>
+  <br/>
+  <label>Address</label>
+  <input ng-model="$ctrl.newBusiness.address" />
+  <br/>
+  <br/>
+  <button class="btn btn-default green text-white" style="margin-bottom: 20px" ng-click="$ctrl.saveBusiness()">Save</button>
+ <!--  <a ui-sref="businesses"><button class="btn btn-default blue text-white" style="margin-bottom: 20px" >Nevermind</button></a> -->
+<form>
+</div>
+</div>
+</div>

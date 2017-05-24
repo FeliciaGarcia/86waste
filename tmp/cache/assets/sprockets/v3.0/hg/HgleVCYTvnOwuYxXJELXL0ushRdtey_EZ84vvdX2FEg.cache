@@ -1,0 +1,28 @@
+{:uriI"–file://app/assets/javascripts/components/businesses/businesses.html?type=text/html&id=e55930f296f0fe119bd342d571dadbd08804f33493aace69d67ec16bfb13053b:ET:load_pathI"app/assets/javascripts;T:filenameI"Aapp/assets/javascripts/components/businesses/businesses.html;T:	nameI"%components/businesses/businesses;T:logical_pathI"*components/businesses/businesses.html;T:content_typeI"text/html;T:sourceI"<h1>Business Page</h1>
+<p>
+  {{ $ctrl.message }}
+<div class="row">
+   		<div class="row">
+    		<div class="col s12 m6 l3">
+      			<div class="card" style="width: 30rem;">
+      				<div style="margin: 35px;">
+
+         				<span class="card-title blue-text text-darken-3"><strong>Sevenanda</strong></span>
+       					<div class="card-image">
+         					<img style="width:375px; height:300px;" ng-src="http://i.imgur.com/h5hYHbY.jpg">
+        				</div>
+        				<div class="card-content">
+         		 			<p>A whole foods store in little five points</p>
+          		 		<a href="http://www.sevananda.coop/">Find out more</a>
+          		 		<p>467 Moreland Ave NE, Atlanta, GA 30307</p>
+         				</div>
+         			</div>
+       			</div>
+      		</div>
+      	</div>
+</div>
+</p>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Ofile-digest://app/assets/javascripts/components/businesses/businesses.html;TTF:charsetI"
+utf-8;F:digest"%µû87ÃhÖH.Õ‰–e†r÷_Ôâ´Æ…QÔ¨ôÄ’:lengthi:dependencies_digest"%×Fm•hŠ»—k’6OH% r¶„ƒ^…N	(à0ø:idI"Ee55930f296f0fe119bd342d571dadbd08804f33493aace69d67ec16bfb13053b;F:
+mtimel+GÔ$Y

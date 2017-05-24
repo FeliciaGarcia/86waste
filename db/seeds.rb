@@ -23,11 +23,28 @@
     	photourl: 'http://assets.bonappetit.com/photos/57bf27e94395c0582bb62f4e/master/w_680,h_454,c_limit/warm-kimchi-grain-bowl-farro-chard-fried-egg.jpg'
     	)
 
-Bulkstore.destroy_all
-Bulkstore.create(
+Business.destroy_all
+Business.create(
     name:'Sevenanda',
     description:'a local health foods store in little five points',
     photourl:'https://pbs.twimg.com/profile_images/522796061195128834/TgHKdobF.jpeg',
-    website:'http://www.sevananda.coop/'
+    website:'http://www.sevananda.coop/',
+    address: '467 Moreland Ave NE, Atlanta, GA 30307'
     )
+Business.create(
+    name:'Whole foods',
+    description:'a corporate health foods store that has a big bulk section and good variety',
+    photourl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSANMEHNtVrTJQP-noho2BOtmIUF661IYCroLxrkB4NWiyPi0P__w',
+    website:'http://www.wholefoodsmarket.com/',
+    address: '650 Ponce De Leon Ave NE, Atlanta, GA 30308'
+    )
+Business.create(
+    name:'Rainbow Grocery',
+    description:'a local health foods store in little five points',
+    photourl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0TILGthMVVZT2zjjASfSDLxug5uOT84mUL8IaODA805wbh0twsg',
+    website:'http://rainbowgrocery.com/',
+    address: '1225 Caroline St NE, Atlanta, GA 30307'
+    )
+
+
     
