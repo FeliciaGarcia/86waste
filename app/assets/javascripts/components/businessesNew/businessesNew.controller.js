@@ -17,7 +17,8 @@ function BusinessesNewController($state, businessesService) {
     longitude: '',
     latitude: '',
     photourl: '',
-    website: ''
+    website: '',
+    state: ''
   };
  
 

@@ -23,4 +23,17 @@
     	photourl: 'http://assets.bonappetit.com/photos/57bf27e94395c0582bb62f4e/master/w_680,h_454,c_limit/warm-kimchi-grain-bowl-farro-chard-fried-egg.jpg'
     	)
 
-Business.destroy_all
+    Business.destroy_all
+    Business.create(
+        name: 'Sevenanda',
+        description: 'A natural foods grocery store in little five points. They have a great bulk section',
+        street: ' 467 Moreland Ave NE',
+        city: 'Atlanta',
+        zipcode: '30307',
+        longitude: '',
+        latitude: '',
+        photourl: '',
+        website: '',
+        state: ''
+        )
+  
