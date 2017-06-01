@@ -30,10 +30,36 @@
         street: ' 467 Moreland Ave NE',
         city: 'Atlanta',
         zipcode: '30307',
-        longitude: '',
-        latitude: '',
-        photourl: '',
-        website: '',
-        state: ''
+        longitude: '33.7670° N',
+        latitude: '84.3485° W',
+        photourl: 'http://www.sevananda.coop/wp-content/uploads/2014/04/Front-Store-605x289.jpg',
+        website: 'http://www.sevananda.coop/',
+        state: 'Georgia'
         )
+     Business.create(
+        name: 'Sprouts',
+        description: 'https://www.sprouts.com/stores/details/-/store-details/view/store/519',
+        street: '1845 Piedmont Ave NE #500',
+        city: 'Atlanta',
+        zipcode: '30324',
+        longitude: '33.8060° N',
+        latitude: '84.3663° W',
+        photourl: 'http://www.theoryhouse.com/wp-content/uploads/2014/11/sprouts_w640.jpeg',
+        website: 'https://www.sprouts.com/stores/details/-/store-details/view/store/519',
+        state: 'Georgia'
+        )
+     Business.create(
+        name: 'Rainbow Grocery',
+        description: 'this store is great for vegans',
+        street: '2118 N Decatur Rd',
+        city: 'Decatur',
+        zipcode: '30033',
+        longitude: '37.7691° N',
+        latitude: '122.4151° W',
+        photourl: 'http://rainbowgrocery.com/wp-content/uploads/2011/04/rainbow-sign_490x275.jpg',
+        website: 'http://rainbowgrocery.com/',
+        state: 'Georgia'
+        )
+
+
   
