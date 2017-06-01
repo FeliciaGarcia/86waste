@@ -54,7 +54,7 @@ angular
         component: 'businessesEdit'
        })
        .state('businessesNew', {
-        url: '/businesses/:id',
+        url: '/businesses/new',
         component: 'businessesNew'
       });
 
