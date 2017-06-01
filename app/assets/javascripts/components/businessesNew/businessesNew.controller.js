@@ -11,10 +11,15 @@ function BusinessesNewController($state, businessesService) {
   vm.business = {
     name: '',
     description: '',
+    street: '',
+    city: '',
+    zipcode: '',
+    longitude: '',
+    latitude: '',
     photourl: '',
-    website: '',
-    address: ''
+    website: ''
   };
+ 
 
   
   function saveBusiness() {
