@@ -1,2 +1,4 @@
 class Business < ApplicationRecord
+	
+
 end

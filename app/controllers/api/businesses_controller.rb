@@ -3,6 +3,7 @@ class Api::BusinessesController < ApplicationController
 		@businesses = Business.all
 		
 		render json: @businesses
+
 	end
 
 	def show

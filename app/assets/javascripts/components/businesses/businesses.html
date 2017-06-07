@@ -1,4 +1,11 @@
-<div ng-repeat="business in $ctrl.businesses" class="row">
+<br>
+<div class="create">
+    <a class="btn btn-default green text-white center" style="margin-left: 550px;" ui-sref="businessesNew">Add a zero waste shop</a>
+</div>
+<div class="search center">
+    <input type="text inputsm" class="glyphicon glyphicon-search" aria-hidden="true" ng-model="searchBox" id="inputsm" placeholder="Search">
+</div>
+<div ng-repeat="business in $ctrl.businesses | filter:searchBox | orderBy:'-created_at' " class="row">
    <div class="row">
     <div class="col s12 m6 l3">
       <div class="card" style="width: 30em;">
