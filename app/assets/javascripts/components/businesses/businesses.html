@@ -1,2 +1,20 @@
+<div ng-repeat="business in $ctrl.businesses" class="row">
+   <div class="row">
+    <div class="col s12 m6 l3">
+      <div class="card" style="width: 30em;">
+        <div style="margin: 35px;">
+          <span class="card-title blue-text text-darken-3"><strong>{{ business.name }}</strong></span>
+          <div class="card-image">
+            <img style="width:375px; height:300px;" ng-src="{{ business.photourl }}">
+          </div>
+          <div class="card-content">
+          <p>{{ business.description }}</p>
+          <a href="{{ business.website }}">Visit website</a>
+          <p>{{ business.city }}, {{business.state}}</p>
+          </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-This is the business page

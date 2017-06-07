@@ -24,7 +24,7 @@ function BusinessesNewController($state, businessesService) {
 
   
   function saveBusiness() {
-    businessService
+    businessesService
       .saveBusiness(vm.newBusiness).then(function(resp) {
       if(resp.status == 201) {
         $state.go('businessesShow', { id: resp.data.id })

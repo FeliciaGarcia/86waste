@@ -1,69 +1,0 @@
-{:uriI"ñfile://app/assets/javascripts/components/businesses/businesses.html?type=text/html&id=0f1736fcd081d5c9795125c686f724d4d375ab2ab956eec382b9b8c0ba87b7c7:ET:load_pathI"app/assets/javascripts;T:filenameI"Aapp/assets/javascripts/components/businesses/businesses.html;T:	nameI"%components/businesses/businesses;T:logical_pathI"*components/businesses/businesses.html;T:content_typeI"text/html;T:sourceI"5
-<div class="bulkstores">Bulk stores in your area</div>
-</p>
-<div class="card-deck">
-  <div class="card">
-    <a class="name" href="http://www.sevananda.coop/">Sevananda</a>
-    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
-    <div class="card-block">
-
-      <p class="card-text">A whole foods store in little five points</p>
-      <p>467 Moreland Ave NE, Atlanta, GA 30307</p>
-    
-    </div>
-  </div>
-  <div class="card">
-      <a class="name" href="http://www.sevananda.coop/">Sevananda</a>
-    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
-    <div class="card-block">
-
-      <p class="card-text">A whole foods store in little five points</p>
-      <p>467 Moreland Ave NE, Atlanta, GA 30307</p>
-    </div>
-  </div>
-  <div class="card">
-     <a class="name" href="http://www.sevananda.coop/">Sevananda</a>
-    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
-    <div class="card-block">
-
-      <p class="card-text">A whole foods store in little five points</p>
-      <p>467 Moreland Ave NE, Atlanta, GA 30307</p>
-    </div>
-  </div>
-</div>
-<div class="card-deck">
-  <div class="card">
-    <a class="name" href="http://www.sevananda.coop/">Sevananda</a>
-    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
-    <div class="card-block">
-    <div class="description">
-        <p class="card-text"> A whole foods store in little five points</p>
-        <p> 467 Moreland Ave NE, Atlanta, GA 30307</p>
-    </div>
-    </div>
-  </div>
-  <div class="card">
-     <a class="name" href="http://www.sevananda.coop/">Sevananda</a>
-    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
-    <div class="card-block">
-
-      <p class="card-text">A whole foods store in little five points</p>
-      <p>467 Moreland Ave NE, Atlanta, GA 30307</p>
-    </div>
-  </div>
-  <div class="card">
-     <a class="name" href="http://www.sevananda.coop/">Sevananda</a>
-    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
-    <div class="card-block">
-
-      <p class="card-text">A whole foods store in little five points</p>
-      <p>467 Moreland Ave NE, Atlanta, GA 30307</p>
-    </div>
-  </div>
-</div>;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Ofile-digest://app/assets/javascripts/components/businesses/businesses.html;TTF:charsetI"
-utf-8;F:digest"%Î PÖO≥CámÕdç≠hÿ’ÆÌp≥G;e‘Â:lengthi5
-:dependencies_digest"%p∆“ÉÔV∏Wn›ñæ“è√p|Ï`3≠¨¯tXÛö!:idI"E0f1736fcd081d5c9795125c686f724d4d375ab2ab956eec382b9b8c0ba87b7c7;F:
-mtimel+
-%Y

@@ -6,13 +6,13 @@ class Api::BusinessesController < ApplicationController
 	end
 
 	def show
-		@businesses = businesses.find(params[:id])
+		@businesses = Business.find(params[:id])
 
 		render json: @businesses
 	end
 
 	def create
-		@business = Business.new(businesses_params)
+		@business = Business.create(businesses_params)
 
 		if @business.save
 			render json: @business, status: :created
@@ -25,4 +25,13 @@ class Api::BusinessesController < ApplicationController
     @businesses = Business.new
 
   	end
+
+  	private
+
+  	def businesses_params
+
+		params.require(:business)
+		.permit(:name, :description, :street, :city, :zipcode, :id, :longitude, :latitude, :photourl, :website, :state, :created_at, :updated_at)
+	
+	end
 end

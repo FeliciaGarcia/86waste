@@ -11,7 +11,11 @@
         </div>
         <div class="card-content">
           <p>{{ $ctrl.business.description }}</p>
-          <p>{{ $ctrl.business.address}}</p>
+          <p>{{ $ctrl.business.street }} </p>
+          <p>{{ $ctrl.business.city }}, {{ $ctrl.business.state }}</p>
+         
+          <a href="{{ $ctrl.business.website}}">Visit website</a>
+          
          </div>
          
         </div>
