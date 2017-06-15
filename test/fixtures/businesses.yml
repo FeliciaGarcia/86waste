@@ -2,12 +2,22 @@
 
 one:
   name: MyString
-  description: MyText
+  description: MyString
+  street: MyString
+  city: MyString
+  zipcode: 1
+  longitude: 9.99
+  latitude: 9.99
   photourl: MyString
   website: MyString
 
 two:
   name: MyString
-  description: MyText
+  description: MyString
+  street: MyString
+  city: MyString
+  zipcode: 1
+  longitude: 9.99
+  latitude: 9.99
   photourl: MyString
   website: MyString

@@ -1,0 +1,33 @@
+{:uriI"file://app/assets/javascripts/components/businessesShow/businessesShow.html?type=text/html&id=663d5de2c8b39dfd34f22d70881afea3bbdd77a05080070e9badb76219c1a198:ET:load_pathI"app/assets/javascripts;T:filenameI"Iapp/assets/javascripts/components/businessesShow/businessesShow.html;T:	nameI"-components/businessesShow/businessesShow;T:logical_pathI"2components/businessesShow/businessesShow.html;T:content_typeI"text/html;T:sourceI"å<div class="showpost">
+
+  <div class="row">
+   <div class="row">
+    <div class="col s12 m6 l3">
+      <div class="card" style="width: 30rem;">
+      <div style="margin: 35px;">
+         <span class="card-title blue-text text-darken-3"><strong>{{ $ctrl.business.name }}</strong></span>
+        <div class="card-image">
+          <img style="width:375px; height:300px;" ng-src="{{ $ctrl.business.photourl }}">
+        </div>
+        <div class="card-content">
+          <p>{{ $ctrl.business.description }}</p>
+          <p>{{ $ctrl.business.city}}</p>
+          <p>{{ $ctrl.business.state}}</p>
+          <p>{{ $ctrl.business.website}}</p>
+         </div>
+         
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+<br>
+
+
+</div>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Wfile-digest://app/assets/javascripts/components/businessesShow/businessesShow.html;TTF:charsetI"
+utf-8;F:digest"%å¾€–q®YòíÌ	"¶Æ ûºe?Ï†îºfşÂ¦@:lengthiå:dependencies_digest"%V5=¯Ğ¢m	®»QÔtF¨PƒòCñ£ÙåD)£½:idI"E663d5de2c8b39dfd34f22d70881afea3bbdd77a05080070e9badb76219c1a198;F:
+mtimel+àW8Y

@@ -1,0 +1,46 @@
+{:uriI"Œfile://app/assets/javascripts/components/posts/posts.html?type=text/html&id=8f3815181c7abbdbd43f45f6675326b5c2e81822e2fbd201307d685841ba62bc:ET:load_pathI"app/assets/javascripts;T:filenameI"7app/assets/javascripts/components/posts/posts.html;T:	nameI"components/posts/posts;T:logical_pathI" components/posts/posts.html;T:content_typeI"text/html;T:sourceI"F<br>
+<div class="posts">
+
+  <div class="create">
+    <a class="btn btn-default green text-white" style="margin-left: 550px;" ui-sref="postsNew">Create a Post</a>
+  
+    <div class="search center">
+      <input type="text inputsm" class="glyphicon glyphicon-search" aria-hidden="true" ng-model="searchBox" id="inputsm" placeholder="Search">
+    </div>
+  </div>
+    <div ng-repeat="post in $ctrl.posts | filter:searchBox | orderBy:'-created_at'" class="row">
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <div class="card" style="width: 30em;" ui-sref="postsShow({id: $ctrl.post.id})">
+            <div style="margin: 35px;">
+             <span class="card-title blue-text text-darken-3"><strong>{{ post.title }}<strong></span>
+              <div class="card-image">
+              <img style="width:375px; height:300px;" ng-src="{{ post.photourl }}">
+              </div>
+              <div class="card-content">
+                <p>{{ post.content }}</p>
+              </div>
+              <div>
+               <a class="twitter-share-button"
+                href="https://twitter.com/intent/tweet?text=check%20out%20my%20post%20on%20eighty%20six%20waste"
+                data-size="large">
+                Tweet
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="tweets">
+  <a class="twitter-timeline"  href="https://twitter.com/TreeHugger" data-width="500" data-height="300">Tweets by Tree hugger</a> 
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+  
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Efile-digest://app/assets/javascripts/components/posts/posts.html;TTF:charsetI"
+utf-8;F:digest"%…¯+.H$óÊãùm’€Ã¯Ò'ˆ…ò»C¹OöIüf—:lengthiF:dependencies_digest"%A³®³*ÁöÐ|ÞC25Yî>N¦²*(uùBV&äË:idI"E8f3815181c7abbdbd43f45f6675326b5c2e81822e2fbd201307d685841ba62bc;F:
+mtimel+…‹8Y

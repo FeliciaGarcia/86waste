@@ -1,53 +1,0 @@
-{:uriI"’file://app/assets/javascripts/components/postsNew/postsNew.html?type=text/html&id=a091cb8770c713fa20a40115421a54fa94f643e8f31fda69cc46795a07ddc0e3:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/postsNew/postsNew.html;T:	nameI"!components/postsNew/postsNew;T:logical_pathI"&components/postsNew/postsNew.html;T:content_typeI"text/html;T:sourceI"«<h1>New Post</h1>
-
-<form>
-  <label>Title</label>
-  <input ng-model="$ctrl.newPost.title" />
-  <br/>
-  <label>Content</label>
-  <textarea ng-model="$ctrl.newPost.content"></textarea>
-  <br/>
-  <label>Photo</label>
-  <input ng-model="$ctrl.newPost.photourl" />
-  <br/>
-  <button ng-click="$ctrl.savePost()">Save</button>
-<form>
-
-  <div class="row" style="flex-direction:column">
-  <div class="card" style="width: 30rem;">
-    <form class="col s12">
-
-      <div class="row">
-        <div class="input-field col s12">
-          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-          <label for="disabled">Disabled</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">Password</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12">
-          This is an inline input field:
-          <div class="input-field inline">
-            <input id="email" type="email" class="validate">
-            <label for="email" data-error="wrong" data-success="right">Email</label>
-          </div>
-        </div>
-      </div>
-    </form>
-    </div>
-  </div>;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/postsNew/postsNew.html;TTF:charsetI"
-utf-8;F:digest"%>—‰Ì’w¹,úhñ×µW{:÷{Û+<bíĞş9G:lengthi«:dependencies_digest"%àÇ¼8R«ÍvŞ÷ê¬Ëˆ•ÂÊüß’ÇÃfuK¨N:idI"Ea091cb8770c713fa20a40115421a54fa94f643e8f31fda69cc46795a07ddc0e3;F:
-mtimel+ÍY
