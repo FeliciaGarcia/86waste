@@ -1,0 +1,42 @@
+<br>
+<div class="posts">
+
+  <div class="create">
+    <a class="btn btn-default green text-white" style="margin-left: 550px;" ui-sref="postsNew">Create a Post</a>
+  
+    <div class="search center">
+      <input type="text inputsm" class="glyphicon glyphicon-search" aria-hidden="true" ng-model="searchBox" id="inputsm" placeholder="Search">
+    </div>
+  </div>
+    <div ng-repeat="post in $ctrl.posts | filter:searchBox | orderBy:'-created_at'" class="row">
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <div class="card" style="width: 30em;">
+            <div style="margin: 35px;">
+             <span class="card-title blue-text text-darken-3"><strong>{{ post.title }}<strong></span>
+              <div class="card-image">
+              <img style="width:375px; height:300px;" ng-src="{{ post.photourl }}">
+              </div>
+              <div class="card-content">
+                <p>{{ post.content }}</p>
+                <a ui-sref="postsShow({id: $ctrl.post.id})">find out more</a>
+              </div>
+              <div>
+               <a class="twitter-share-button"
+                href="https://twitter.com/intent/tweet?text=check%20out%20my%20post%20on%20eighty%20six%20waste"
+                data-size="large">
+                Tweet
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="tweets">
+  <a class="twitter-timeline"  href="https://twitter.com/TreeHugger" data-width="500" data-height="300">Tweets by Tree hugger</a> 
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+  

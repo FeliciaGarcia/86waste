@@ -1,0 +1,31 @@
+<div class="showpost">
+
+  <div class="row">
+   <div class="row">
+    <div class="col s12 m6 l3">
+      <div class="card" style="width: 30rem;">
+      <div style="margin: 35px;">
+         <span class="card-title blue-text text-darken-3"><strong>{{ $ctrl.business.name }}</strong></span>
+        <div class="card-image">
+          <img style="width:375px; height:300px;" ng-src="{{ $ctrl.business.photourl }}">
+        </div>
+        <div class="card-content">
+          <p>{{ $ctrl.business.description }}</p>
+          <p>{{ $ctrl.business.street }} </p>
+          <p>{{ $ctrl.business.city }}, {{ $ctrl.business.state }}</p>
+         
+          <a href="{{ $ctrl.business.website}}">Visit website</a>
+          
+         </div>
+         
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+<br>
+
+
+</div>
