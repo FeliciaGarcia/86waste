@@ -10,6 +10,7 @@ class CreateBusinesses < ActiveRecord::Migration[5.0]
       t.decimal :latitude
       t.string :photourl
       t.string :website
+      t.string :state
 
       t.timestamps
     end
