@@ -1,68 +1,0 @@
-{:uriI"–file://app/assets/javascripts/components/businesses/businesses.html?type=text/html&id=229a7b97846e25fd0e6124d4a85edbc06cd3a3abb2985d4cc1c6b563f3d1f2f8:ET:load_pathI"app/assets/javascripts;T:filenameI"Aapp/assets/javascripts/components/businesses/businesses.html;T:	nameI"%components/businesses/businesses;T:logical_pathI"*components/businesses/businesses.html;T:content_typeI"text/html;T:sourceI"
-<div class="bulkstores">Bulk stores in your area</div>
-</p>
-<div class="card-deck">
-  <div class="card">
-  
-   <a class="name" href="https://nutsnberries.com/">Nuts and Berries</a>
-    <img width="350" length="200" class="card-img-top" ng-src="http://i.imgur.com/thmeGEn.jpg" alt="Card image cap">
-    <div class="card-block">
-
-      <p class="card-text">One of the more accessible bulk stores in Atlanta.</p>
-      <p>4274 Peachtree Rd NE, Atlanta, GA 30319</p>
-    </div>
-  </div>
-  <div class="card">
-      <a class="name" href="http://www.wholefoodsmarket.com/">Whole Foods</a>
-    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://www.mytotalretail.com/wp-content/uploads/sites/14/2015/06/whole-foods11.jpg" alt="Card image cap">
-    <div class="card-block">
-
-      <p class="card-text">Whole foods has a great bulk section and organic options</p>
-      <p>650 Ponce De Leon Ave NE, Atlanta, GA 30308</p>
-    </div>
-  </div>
-  <div class="card">
-     <a class="name" href="http://www.sevananda.coop/">Sevananda</a>
-    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/h5hYHbY.jpg" alt="Card image cap">
-    <div class="card-block">
-
-      <p class="card-text">A whole foods store in little five points</p>
-      <p>467 Moreland Ave NE, Atlanta, GA 30307</p>
-    </div>
-  </div>
-</div>
-<div class="card-deck">
-  <div class="card">
-     <a class="name" href="https://www.sprouts.com/stores/details/-/store-details/view/store/525?utm_source=Yext&utm_medium=StoreListings&utm_campaign=525">Sprouts</a>
-    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://media.al.com/news_birmingham_impact/photo/sproutsjpg-c283bc637526cccd.jpg" alt="Card image cap">
-    <div class="card-block">
-
-      <p class="card-text">Sprouts has great prices and a wide variety in their bulk section</p>
-      <p>2551 Blackmon Dr, Decatur, GA 30033</p>
-    </div>
-   
-  </div>
-  <div class="card">
-     <a class="name" href="http://rainbowgrocery.com/">Rainbow Grocery</a>
-    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/i11osOZ.jpg" alt="Card image cap">
-    <div class="card-block">
-
-      <p class="card-text">Great for vegan and vegetarian food.</p>
-      <p>2118 N Decatur Rd, Decatur, GA 30033</p>
-    </div>
-  </div>
-  <div class="card">
-     <a class="name" href="https://www.kroger.com/?CID=PDM-YEXT.GMB-LOCAL">Edgewood Kroger</a>
-    <img class="card-img-top" style="width: 24em; length: 25em; margin: 1.5em;" ng-src="http://i.imgur.com/HlxJCGz.jpg" alt="Card image cap">
-    <div class="card-block">
-
-      <p class="card-text">This kroger actually has a great bulk section.</p>
-      <p>1225 Caroline St NE, Atlanta, GA 30307</p>
-    </div>
-  </div>
-</div>
-;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Ofile-digest://app/assets/javascripts/components/businesses/businesses.html;TTF:charsetI"
-utf-8;F:digest"%@}çNv¦rí:bCB¤†æ3ô•õÄ/`þvŒÔ$Â:lengthi:dependencies_digest"%zúZ·µö·„¸ñÔ,äý¹¥ƒµàzÞ÷(p†F¨rÐ):idI"E229a7b97846e25fd0e6124d4a85edbc06cd3a3abb2985d4cc1c6b563f3d1f2f8;F:
-mtimel+Ÿ%Y

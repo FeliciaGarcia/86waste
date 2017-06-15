@@ -1,4 +1,4 @@
-<br>
+{:uriI"åfile://app/assets/javascripts/components/posts/posts.html?type=text/html&id=483c07f9da073328cebb389be8925f3edcd108a154e3825ffd7ad56dbc78cedc:ET:load_pathI"app/assets/javascripts;T:filenameI"7app/assets/javascripts/components/posts/posts.html;T:	nameI"components/posts/posts;T:logical_pathI" components/posts/posts.html;T:content_typeI"text/html;T:sourceI"N<br>
 <div class="posts">
 
   <div class="create">
@@ -19,7 +19,7 @@
               </div>
               <div class="card-content">
                 <p>{{ post.content }}</p>
-                <a ui-sref="postsShow({id: $ctrl.post.id})">find out more</a>
+                <a ui-sref="#">find out more</a>
               </div>
               <div>
                <a class="twitter-share-button"
@@ -40,3 +40,8 @@
 </div>
 
   
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Efile-digest://app/assets/javascripts/components/posts/posts.html;TTF:charsetI"
+utf-8;F:digest"%+ª7J5S+¯∞|•÷Ä4óãñ≤ºWòÏÎ‰/°:lengthiN:dependencies_digest"%ÀNÎñ¨Ω(·÷Pêk|˝3)@HN	)ªFW†∫ﬁ∫:idI"E483c07f9da073328cebb389be8925f3edcd108a154e3825ffd7ad56dbc78cedc;F:
+mtimel+◊å8Y
