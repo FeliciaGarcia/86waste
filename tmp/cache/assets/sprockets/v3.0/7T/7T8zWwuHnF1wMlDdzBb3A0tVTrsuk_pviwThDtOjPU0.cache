@@ -1,0 +1,26 @@
+{:uriI"’file://app/assets/javascripts/components/homePage/homePage.html?type=text/html&id=e60e285b6f169d4886918a4cbd9734e6d9b6dfd828831c82ac3da47268b43236:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/homePage/homePage.html;T:	nameI"!components/homePage/homePage;T:logical_pathI"&components/homePage/homePage.html;T:content_typeI"text/html;T:sourceI"$
+<div class="jumbotron">
+    
+  
+      <div class="landing">
+        <img class="logo" alt="Brand" ng-src="http://imageshack.com/a/img922/9296/C5ad3F.png">
+        
+
+        <br>
+        <p class="quote">â€œConsume less; share better.â€ 
+           â€• HervÃ© Kempf</p>
+         
+       <div class="appIcons">
+        <img class="logo" ng-src="http://i.imgur.com/5q6TPmw.png">
+        <img class="logo" ng-src="http://i.imgur.com/5mRsVoC.png">
+        <img class="logo" ng-src="http://i.imgur.com/I7M8SRv.png">
+        </div>
+
+      </div>
+</div>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/homePage/homePage.html;TTF:charsetI"
+utf-8;F:digest"%¹%3
+a¶¿ÕzHËò€vgMÁy·TgvFÁ¶4$-:lengthi$:dependencies_digest"%&0â,Ğô€Ø…˜X9ë,küÃ%Rsø}ÅÜµc:idI"Ee60e285b6f169d4886918a4cbd9734e6d9b6dfd828831c82ac3da47268b43236;F:
+mtimel+Ç’HY

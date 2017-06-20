@@ -1,0 +1,15 @@
+{:uriI"’file://app/assets/javascripts/components/homePage/homePage.html?type=text/html&id=0632bd0824bd292bbc960143216ea4668f51d7e3ecf3942fa34c60189d27f155:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/homePage/homePage.html;T:	nameI"!components/homePage/homePage;T:logical_pathI"&components/homePage/homePage.html;T:content_typeI"text/html;T:sourceI"
+<div class="jumbotron">
+    <div class="landing">
+        <img class="logo" alt="Brand" ng-src="http://imageshack.com/a/img922/9296/C5ad3F.png">
+        <br>
+        <p class="quote">â€œConsume less; share better.â€ 
+           â€• HervÃ© Kempf</p>
+    </div>
+</div>
+
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/homePage/homePage.html;TTF:charsetI"
+utf-8;F:digest"%r”Ÿôü_±ã‘2@À*v˜ñ¨ğ}7º2üÆ—‡:lengthi:dependencies_digest"%nTÕÀŠ#!y}„Axæ&èÕ'¾Tšx=Ô¢nøÀ»è"Ó:idI"E0632bd0824bd292bbc960143216ea4668f51d7e3ecf3942fa34c60189d27f155;F:
+mtimel+µŸHY

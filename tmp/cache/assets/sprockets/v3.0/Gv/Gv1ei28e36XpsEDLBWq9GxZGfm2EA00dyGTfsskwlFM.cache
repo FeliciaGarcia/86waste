@@ -1,0 +1,36 @@
+{:uriI"’file://app/assets/javascripts/components/homePage/homePage.html?type=text/html&id=d6f4afd1722e367d242f2de8c7b20108f2d634326264e9dc8b4a4f6b272d45bb:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/homePage/homePage.html;T:	nameI"!components/homePage/homePage;T:logical_pathI"&components/homePage/homePage.html;T:content_typeI"text/html;T:sourceI"m
+<div class="jumbotron">
+    
+  
+      <div class="landing">
+        <img class="logo" alt="Brand" ng-src="http://imageshack.com/a/img922/9296/C5ad3F.png">
+        
+
+        <br>
+        <p class="quote">â€œConsume less; share better.â€ 
+           â€• HervÃ© Kempf</p>
+         
+       <div class="appIcons">
+        <img style="height: 6em; width: 6em;" ng-src="http://i.imgur.com/DSwmL2A.png">
+        <img style="height: 6em; width: 6em;" ng-src="http://i.imgur.com/5mRsVoC.png">
+        <img style="height: 6em; width: 6em;" ng-src="http://i.imgur.com/I7M8SRv.png">
+        </div>
+
+      </div>
+</div>
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img style="height: 6em; width: 6em;" ng-src="http://i.imgur.com/DSwmL2A.png">
+      <div class="caption">
+        
+        <p>...</p>
+        
+      </div>
+    </div>
+  </div>
+</div>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/homePage/homePage.html;TTF:charsetI"
+utf-8;F:digest"%Ş¤™âm4×Í…ü*§‰¹,¯ÚC£ï¯ØYw×Ãi™ìFÍ:lengthim:dependencies_digest"%˜”ÍRÁòÓ&n³›	i@9ù‰L[\;ÂĞ‹Çcg8ñ):idI"Ed6f4afd1722e367d242f2de8c7b20108f2d634326264e9dc8b4a4f6b272d45bb;F:
+mtimel+A–HY

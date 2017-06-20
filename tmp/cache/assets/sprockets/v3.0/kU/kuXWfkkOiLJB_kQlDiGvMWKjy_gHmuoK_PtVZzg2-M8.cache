@@ -1,0 +1,74 @@
+{:uriI"ûfile://app/assets/javascripts/components/businessesShow/businessesShow.html?type=text/html&id=4bd658f3254383f0649d9be56ab2473255d46bc263b0abba9c063847ec781d5c:ET:load_pathI"app/assets/javascripts;T:filenameI"Iapp/assets/javascripts/components/businessesShow/businessesShow.html;T:	nameI"-components/businessesShow/businessesShow;T:logical_pathI"2components/businessesShow/businessesShow.html;T:content_typeI"text/html;T:sourceI"ç
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: {{ $ctrl.business.longitude }}, lng: {{ $ctrl.business.latitude }} };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+
+
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZHxWtHDBJ_0_Y3RoHFLZs7Xu19Rwj0Go&callback=initMap">
+    </script>
+
+    <div class="showpost">
+
+  <div class="row">
+   <div class="row">
+    <div class="col s12 m6 l3">
+      <div class="card" style="width: 30rem;">
+      <div style="margin: 35px;">
+         <span class="card-title blue-text text-darken-3"><strong>{{ $ctrl.business.name }}</strong></span>
+        <div class="card-image">
+          <img style="width:375px; height:300px;" ng-src="{{ $ctrl.business.photourl }}">
+        </div>
+        <div class="card-content">
+          <p>{{ $ctrl.business.description }}</p>
+          <p>{{ $ctrl.business.street }} </p>
+          <p>{{ $ctrl.business.city }}, {{ $ctrl.business.state }}</p>
+         
+          <a href="{{ $ctrl.business.website}}">Visit website</a>
+          <br>
+          <button class="btn default"><a ui-sref="businesses">back to stores</a></button>
+         </div>
+         
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+<br>
+
+
+</div>
+
+  </body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Wfile-digest://app/assets/javascripts/components/businessesShow/businessesShow.html;TTF:charsetI"
+utf-8;F:digest"%K_”©Òã•Ê‡FsÕÊƒIÚ|(°¿úª‡{M‘:lengthiç:dependencies_digest"%•,0hLÙÆ√\6
+Ê:_N.Ä¶>&€Ç–“^∑Êˇ‡π:idI"E4bd658f3254383f0649d9be56ab2473255d46bc263b0abba9c063847ec781d5c;F:
+mtimel+ŸåHY

@@ -1,0 +1,35 @@
+{:uriI"ífile://app/assets/javascripts/components/homePage/homePage.html?type=text/html&id=1199a3cea2876fb61fe82d469dfca24c16453bde218f9efb59c828a19797d6aa:ET:load_pathI"app/assets/javascripts;T:filenameI"=app/assets/javascripts/components/homePage/homePage.html;T:	nameI"!components/homePage/homePage;T:logical_pathI"&components/homePage/homePage.html;T:content_typeI"text/html;T:sourceI"i
+<div class="jumbotron">
+    <div class="landing">
+        <img class="logo" alt="Brand" ng-src="http://imageshack.com/a/img922/9296/C5ad3F.png">
+        <br>
+        <p class="quote">‚ÄúConsume less; share better.‚Äù 
+           ‚Äï Herv√© Kempf</p>
+           <br>
+        <div class="appIcons">
+            <div class="columns">    
+                <ul>
+                    <li>
+
+                        <img style="height: 6em; width: 6em;" ng-src="http://i.imgur.com/DSwmL2A.png">
+                            <p>find a bulk store or zero waste business near you</p>
+                    </li>
+                    <li>
+                        <img style="height: 6em; width: 6em;" ng-src="http://i.imgur.com/5mRsVoC.png">
+                            <p>connect with other zero-wasters</p>
+                    </li>
+                    <li>
+                        <img style="height: 6em; width: 6em;" ng-src="http://i.imgur.com/I7M8SRv.png">
+                            <p>share tips and tricks about reducing our waste</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Kfile-digest://app/assets/javascripts/components/homePage/homePage.html;TTF:charsetI"
+utf-8;F:digest"%∂°{çùﬁ(hQò˜;Í5nqÏê	ÇpÿÍ¢¨¨∂:lengthii:dependencies_digest"%ˆÒHm^†∏ã`◊tVMG√o∏…sêspÜQ)¢äòkb:idI"E1199a3cea2876fb61fe82d469dfca24c16453bde218f9efb59c828a19797d6aa;F:
+mtimel+ç¢HY
